@@ -1,0 +1,13 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	name = DaiPei
+	email = daipei@hust.edu.cn
+[push]
+	default = simple
+[alias]
+	ll = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%an, %G?, %cr)%Creset' --abbrev-commit
+[core]
+	editor = /usr/bin/vim

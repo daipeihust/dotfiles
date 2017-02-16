@@ -7,7 +7,7 @@ setopt AUTO_CD
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="junkfood"
+ZSH_THEME="daipei"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,13 +51,14 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions svn)
+plugins=(git zsh-autosuggestions svn osx autojump)
 
 # User configuration
 
 # export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH="$PATH:/usr/local/aria2/bin/:/Users/daipei/Workshop/Shell/"
+export PATH=$PATH:/usr/local/aria2/bin/:/Users/daipei/Workshop/Shell/
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 # Theos configuration
 export THEOS=/opt/theos
@@ -120,3 +121,6 @@ bindkey -v
 # Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
 # export COCOS_TEMPLATES_ROOT=/Users/daipei/Workshop/Clone/cocos2d-x-samples/libs/cocos2d-x/templates
 # export PATH=$COCOS_TEMPLATES_ROOT:$PATH
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

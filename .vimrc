@@ -1,3 +1,9 @@
+" 让配置变更立即生效
+autocmd BufWritePost $MYVIMRC source $MYVIMRC
+
+" paste mode
+set paste
+
 " NERD Tree Setting
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
@@ -125,6 +131,8 @@ set number
 syntax on
 " Highlight current line
 set cursorline
+" Highlight current column
+set cursorcolumn
 " Make tabs as wide as two spaces
 set tabstop=2
 " Show “invisible” characters

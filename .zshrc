@@ -100,6 +100,9 @@ alias scl="svn cleanup"
 # alias vim="/usr/local/bin/vim"
 alias vim="/usr/bin/vim"
 
+# use the latest emacs
+alias emacs="/usr/local/Cellar/emacs/25.2/Emacs.app/Contents/MacOS/Emacs -nw"
+
 bindkey -v
 
 # Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x

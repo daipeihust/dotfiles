@@ -1,4 +1,5 @@
-" 让配置变更立即生效
+
+" make configuration work immediately 
 autocmd BufWritePost $MYVIMRC source $MYVIMRC
 
 " paste mode

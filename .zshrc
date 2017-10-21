@@ -1,3 +1,13 @@
+# zplug part
+source ~/.zplug/init.zsh
+
+# add enhancd plugin
+zplug "b4b4r07/enhancd", use:init.sh
+
+# Then, source plugins and add commands to $PATH
+zplug load --verbose
+
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/daipei/.oh-my-zsh
 

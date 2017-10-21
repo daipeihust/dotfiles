@@ -1,12 +1,15 @@
 # zplug part
-source ~/.zplug/init.zsh
+export ZPLUG=/usr/local/opt/zplug
+source $ZPLUG/init.zsh
 
 # add enhancd plugin
-zplug "b4b4r07/enhancd", use:init.sh
+zplug "b4b4r07/enhancd", use:"*.sh"
 
 # Then, source plugins and add commands to $PATH
-zplug load --verbose
+zplug load 
 
+# env varible for enhancd plugin
+export ENHANCD_FILTER=fzy
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/daipei/.oh-my-zsh
@@ -61,7 +64,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions svn osx autojump zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions svn osx autojump colored-man-pages) 
 
 # User configuration
 
@@ -115,6 +118,9 @@ alias emacs="/usr/local/Cellar/emacs/25.2/Emacs.app/Contents/MacOS/Emacs -nw"
 
 # check ip address quickly
 alias ip="curl ip.cn"
+
+# musicbox alias
+alias mb="musicbox"
 
 bindkey -v
 

@@ -51,7 +51,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions svn osx autojump)
+plugins=(git zsh-autosuggestions svn osx autojump zsh-syntax-highlighting)
 
 # User configuration
 
@@ -68,7 +68,7 @@ export PATH=$THEOS/bin:$PATH
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -103,6 +103,9 @@ alias vim="/usr/bin/vim"
 # use the latest emacs
 alias emacs="/usr/local/Cellar/emacs/25.2/Emacs.app/Contents/MacOS/Emacs -nw"
 
+# check ip address quickly
+alias ip="curl ip.cn"
+
 bindkey -v
 
 # Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
@@ -129,3 +132,21 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 eval $(thefuck --alias)
+
+# http proxy configure script
+function cw() {
+		if [ "$http_proxy" = "" ]
+		then
+				launchctl load ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
+				export http_proxy=http://localhost:8123
+				export https_proxy=http://localhost:8123
+				export ftp_proxy=http://localhost:8123
+		else
+				launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
+				export http_proxy=""
+				export https_proxy=""
+				export ftp_proxy=""
+		fi
+		curl ip.cn &
+}
+

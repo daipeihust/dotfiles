@@ -77,6 +77,9 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export THEOS=/opt/theos
 export PATH=$THEOS/bin:$PATH
 
+# my shadowsocks server ip
+export VPS="138.68.227.123"
+
 # oh-my-zsh Configuration
 source $ZSH/oh-my-zsh.sh
 
@@ -122,6 +125,9 @@ alias ip="curl ip.cn"
 # musicbox alias
 alias mb="musicbox"
 
+# mentohust alias
+alias mh="_ mentohust"
+
 bindkey -v
 
 # Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
@@ -153,12 +159,13 @@ eval $(thefuck --alias)
 function cw() {
 		if [ "$http_proxy" = "" ]
 		then
-				launchctl load ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
-				export http_proxy=http://localhost:8123
-				export https_proxy=http://localhost:8123
-				export ftp_proxy=http://localhost:8123
+				# I don't neet polipo anymore, because next generation shadowsocks have http proxy
+				# launchctl load ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
+				export http_proxy=http://localhost:1087
+				export https_proxy=http://localhost:1087
+				export ftp_proxy=http://localhost:1087
 		else
-				launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
+				# launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
 				export http_proxy=""
 				export https_proxy=""
 				export ftp_proxy=""

@@ -17,10 +17,10 @@ set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/bash/powerlin
 set nocompatible
 set t_Co=256
 
-let g:minBufExplForceSyntaxEnable = 1
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+"let g:minBufExplForceSyntaxEnable = 1
+"python from powerline.vim import setup as powerline_setup
+"python powerline_setup()
+"python del powerline_setup
 
 set laststatus=2 
 set guifont=Source\ Code\ Pro\ for\ Powerline:h12 
@@ -44,6 +44,8 @@ Plugin 'benmills/vimux'
 
 " let Vundle manage nerdtree
 Plugin 'scrooloose/nerdtree'
+
+Plugin 'easymotion/vim-easymotion'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -188,7 +190,7 @@ noremap <leader>y "*y
 noremap <leader>yy "*y
 
 " Preserve indentation while pasting text from the OS X clipboard
-noremap <leader>p :set paste<CR>:put *<CR>:set nopaste<CR>
+" noremap <leader>p :set paste<CR>:put *<CR>:set nopaste<CR>
 
 " Automatic commands
 if has("autocmd")

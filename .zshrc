@@ -112,6 +112,8 @@ alias sst="svn st"
 alias scm="svn ci -m"
 alias scl="svn cleanup"
 
+alias o="open ."
+
 # use the vim 8.0
 # alias vim="/usr/local/bin/vim"
 alias vim="/usr/bin/vim"

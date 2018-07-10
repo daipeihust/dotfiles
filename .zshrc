@@ -9,7 +9,7 @@ zplug "b4b4r07/enhancd", use:"*.sh"
 zplug load 
 
 # env varible for enhancd plugin
-export ENHANCD_FILTER=fzy
+export ENHANCD_FILTER=fzf
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/daipei/.oh-my-zsh

@@ -1,14 +1,17 @@
 #!/bin/zsh
 
 # backup old file
-#mv -f ~/.vim ~/.vim.backup
-#mv -f ~/.vimrc ~/.vimrc.backup
-#mv -f ~/.zshrc ~/.zshrc.backup
+mv -f $HOME/.vim $HOME/.vim.backup
+mv -f $HOME/.vimrc $HOME/.vimrc.backup
+mv -f $HOME/.zshrc $HOME/.zshrc.backup
 
 # link new file
-#ln -s .vim ~/.vim
-#ln -s .vimrc ~/.vimrc
-#ln -s .zshrc ~/.zshrc
+ln -s $HOME/dotfiles/.vim $HOME/.vim
+ln -s $HOME/dotfiles/.vimrc $HOME/.vimrc
+ln -s $HOME/dotfiles/.zshrc $HOME/.zshrc
 
-#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# install vim plugin
+rm -rf .vim/bundle
+mkdir -p .vim/bundle
+git clone https://github.com/VundleVim/Vundle.vim.git .vim/bundle/Vundle.vim
 vim +PluginInstall +qall

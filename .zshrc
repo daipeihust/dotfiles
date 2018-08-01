@@ -130,6 +130,9 @@ alias mb="musicbox"
 # mentohust alias
 alias mh="_ mentohust"
 
+# search in current dir
+alias s="find . | grep "
+
 bindkey -v
 
 # Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x

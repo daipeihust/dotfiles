@@ -9,7 +9,7 @@ zplug "b4b4r07/enhancd", use:"*.sh"
 zplug load 
 
 # env varible for enhancd plugin
-export ENHANCD_FILTER=fzy
+export ENHANCD_FILTER=fzf
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/daipei/.oh-my-zsh
@@ -20,7 +20,7 @@ setopt AUTO_CD
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="daipei"
+ZSH_THEME="takashiyoshida"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -130,6 +130,20 @@ alias mb="musicbox"
 # mentohust alias
 alias mh="_ mentohust"
 
+# search in current dir
+alias s="find . | grep "
+
+# use icdiff with git
+alias gid="git icdiff"
+
+# pm alias
+alias go="pm go"
+
+# source .zshrc quickly
+alias upzsh="source ~/.zshrc"
+
+alias j="autojump"
+
 bindkey -v
 
 # Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
@@ -175,3 +189,11 @@ function cw() {
 		curl ip.cn &
 }
 
+
+# PM functions
+source ~/.pm/pm.zsh
+alias pma="pm add"
+alias pmg="pm go"
+alias pmrm="pm remove"
+alias pml="pm list"
+# end PM

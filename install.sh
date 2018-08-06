@@ -34,3 +34,10 @@ rm -rf .vim/bundle
 mkdir -p .vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git .vim/bundle/Vundle.vim
 vim +PluginInstall +qall
+
+brew tig
+brew git
+brew ncdu
+brew python
+brew wget
+brew yarn

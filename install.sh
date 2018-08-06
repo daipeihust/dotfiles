@@ -35,9 +35,11 @@ mkdir -p .vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git .vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
-brew tig
-brew git
-brew ncdu
-brew python
-brew wget
-brew yarn
+brew install tig
+brew install git
+brew install ncdu
+brew install python
+brew install wget
+brew install yarn
+brew install ranger
+brew install autojump

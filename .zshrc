@@ -136,6 +136,12 @@ alias s="find . | grep "
 # use icdiff with git
 alias gid="git icdiff"
 
+# pm alias
+alias go="pm go"
+
+# source .zshrc quickly
+alias upzsh="source ~/.zshrc"
+
 bindkey -v
 
 # Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x

@@ -5,12 +5,14 @@ mv -f $HOME/.vim $HOME/.vim.backup
 mv -f $HOME/.vimrc $HOME/.vimrc.backup
 mv -f $HOME/.zshrc $HOME/.zshrc.backup
 mv -f $HOME/.gitconfig $HOME/.gitconfig.backup
+mv -f $HOME/dotfiles/.hyper.js $HOME/.hyper.js
 
 # link new file
 ln -s $HOME/dotfiles/.vim $HOME/.vim
 ln -s $HOME/dotfiles/.vimrc $HOME/.vimrc
 ln -s $HOME/dotfiles/.zshrc $HOME/.zshrc
 ln -s $HOME/dotfiles/.gitconfig $HOME/.gitconfig
+ln -s $HOME/dotfiles/.hyper.js $HOME/.hyper.js
 
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

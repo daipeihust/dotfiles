@@ -163,9 +163,9 @@ function cw() {
 		then
 				# I don't neet polipo anymore, because next generation shadowsocks have http proxy
 				# launchctl load ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
-				export http_proxy=http://localhost:1087
-				export https_proxy=http://localhost:1087
-				export ftp_proxy=http://localhost:1087
+				export http_proxy=http://localhost:1090
+				export https_proxy=http://localhost:1090
+				export ftp_proxy=http://localhost:1090
 		else
 				# launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
 				export http_proxy=""

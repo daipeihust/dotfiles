@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/daipei/Workshop/Pinssible/code/git/giftclient.classic/.git'
-let g:netrw_dirhist_2='/Users/daipei/Workshop/Pinssible/code/git/ZFNativeAdsManager'
-let g:netrw_dirhist_3='/Users/daipei/.vim'

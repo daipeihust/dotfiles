@@ -43,3 +43,5 @@ brew install wget
 brew install yarn
 brew install ranger
 brew install autojump
+sudo pip3 install cheat
+sudo gem install bropages

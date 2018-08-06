@@ -142,6 +142,8 @@ alias go="pm go"
 # source .zshrc quickly
 alias upzsh="source ~/.zshrc"
 
+alias j="autojump"
+
 bindkey -v
 
 # Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x

@@ -2,17 +2,16 @@
 export ZPLUG=/usr/local/opt/zplug
 source $ZPLUG/init.zsh
 
-# add enhancd plugin
-zplug "b4b4r07/enhancd", use:"*.sh"
-
+zplug "plugins/git",		from:oh-my-zsh
+#zplug "plugins/osx",		from:oh-my-zsh
+zplug "b4b4r07/enhancd",		use:init.sh
+zplug "zsh-users/zsh-syntax-highlighting",	defer:2
+zplug 'dracula/zsh',		as:theme
 # Then, source plugins and add commands to $PATH
 zplug load 
 
 # env varible for enhancd plugin
 export ENHANCD_FILTER=fzf
-
-# Path to your oh-my-zsh installation.
-export ZSH=/Users/daipei/.oh-my-zsh
 
 setopt AUTO_CD
 
@@ -80,9 +79,6 @@ export PATH=$THEOS/bin:$PATH
 # my shadowsocks server ip
 export VPS="138.68.227.123"
 
-# oh-my-zsh Configuration
-source $ZSH/oh-my-zsh.sh
-
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
@@ -105,12 +101,7 @@ export LANG=en_US.UTF-8
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias sup="svn up"
-alias sst="svn st"
-alias scm="svn ci -m"
-alias scl="svn cleanup"
+alias conzsh="vim ~/.zshrc"
 
 alias o="open ."
 

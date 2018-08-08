@@ -2,6 +2,9 @@
 " make configuration work immediately 
 autocmd BufWritePost $MYVIMRC source $MYVIMRC
 
+" make vimdiff wrap automatically
+autocmd FilterWritePre * if &diff | setlocal wrap< | endif
+
 " paste mode
 set paste
 

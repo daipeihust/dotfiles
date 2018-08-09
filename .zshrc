@@ -107,7 +107,8 @@ export LANG=en_US.UTF-8
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias conzsh="vim ~/.zshrc"
+alias czsh="vim ~/.zshrc"
+alias cvim="vim ~/.vimrc"
 
 alias o="open ."
 

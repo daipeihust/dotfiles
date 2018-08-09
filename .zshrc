@@ -1,4 +1,5 @@
 
+# use dir name to change dir directly
 setopt AUTO_CD
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
@@ -91,8 +92,8 @@ alias o="open ."
 alias h="~"
 
 # use the vim 8.0
-# alias vim="/usr/local/bin/vim"
-alias vim="/usr/bin/vim"
+alias vim="/usr/local/bin/vim"
+# alias vim="/usr/bin/vim"
 
 # use the latest emacs
 alias emacs="/usr/local/Cellar/emacs/25.2/Emacs.app/Contents/MacOS/Emacs -nw"

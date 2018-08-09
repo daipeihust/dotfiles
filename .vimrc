@@ -50,6 +50,9 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'easymotion/vim-easymotion'
 
+set rtp+=/usr/local/bin/fzf
+Plugin 'junegunn/fzf.vim'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -165,7 +168,7 @@ set shortmess=atI
 " Show the current mode
 set showmode
 " Show the filename in the window titlebar
-set title
+set notitle
 " Show the (partial) command as it’s being typed
 set showcmd
 " Use relative line numbers

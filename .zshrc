@@ -9,6 +9,7 @@ zplug "plugins/bundler",		from:oh-my-zsh
 zplug "plugins/dotenv",		from:oh-my-zsh
 zplug "plugins/d",		from:oh-my-zsh
 zplug "lib/completion", from:oh-my-zsh
+zplug "lib/directories", from:oh-my-zsh
 zplug "plugins/correction",		from:oh-my-zsh
 zplug "b4b4r07/enhancd",		use:init.sh
 zplug "zsh-users/zsh-syntax-highlighting",	defer:2
@@ -111,6 +112,8 @@ alias czsh="vim ~/.zshrc"
 alias cvim="vim ~/.vimrc"
 
 alias o="open ."
+
+alias h="~"
 
 # use the vim 8.0
 # alias vim="/usr/local/bin/vim"

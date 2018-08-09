@@ -85,12 +85,6 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-" Use the Solarized Dark theme
-set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
-let g:solarized_termcolors=256
-
 " set the tab shift
 set ts=4 
 set shiftwidth=4 

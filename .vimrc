@@ -1,4 +1,5 @@
 
+
 " make configuration work immediately 
 autocmd BufWritePost $MYVIMRC source $MYVIMRC
 
@@ -50,8 +51,15 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'easymotion/vim-easymotion'
 
+" install fzf for vim
 set rtp+=/usr/local/bin/fzf
 Plugin 'junegunn/fzf.vim'
+
+" install vim theme manager
+Plugin 'flazz/vim-colorschemes'
+
+" install ondark theme
+" Plugin 'joshdick/onedark.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -172,6 +180,9 @@ if exists("&relativenumber")
 endif
 " Start scrolling three lines before the horizontal window border
 set scrolloff=3
+
+" set theme
+colorscheme onedark
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()

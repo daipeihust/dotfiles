@@ -8,7 +8,7 @@
 	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
 [user]
-	email = daipei@hust.edu.cn
+	email = steve.dp@alipay.com
 	name = DaiPei
 [commit]
 	template = /Users/daipei/.stCommitMsg

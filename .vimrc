@@ -58,6 +58,9 @@ Plugin 'junegunn/fzf.vim'
 " install vim theme manager
 Plugin 'flazz/vim-colorschemes'
 
+" install lightline
+Plugin 'itchyny/lightline.vim'
+
 " install ondark theme
 " Plugin 'joshdick/onedark.vim'
 
@@ -183,6 +186,11 @@ set scrolloff=3
 
 " set theme
 colorscheme onedark
+
+" set lightline theme
+let g:lightline = {
+		  \ 'colorscheme': 'one',
+		  \ }
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()

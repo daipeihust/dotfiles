@@ -44,7 +44,9 @@ zplug "lib/*", from:oh-my-zsh
 zplug "plugins/correction",		from:oh-my-zsh
 zplug "b4b4r07/enhancd",		use:init.sh
 zplug "zsh-users/zsh-syntax-highlighting",	defer:2
+zplug "zsh-users/zsh-history-substring-search",	defer:2
 zplug 'dracula/zsh',		as:theme
+
 # Then, source plugins and add commands to $PATH
 zplug load 
 

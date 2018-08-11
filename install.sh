@@ -17,6 +17,11 @@ ln -s $HOME/dotfiles/.hyper.js $HOME/.hyper.js
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# install base tool
+brew install git
+brew install python
+brew install wget
+
 # install zplug
 brew install zplug
 
@@ -34,10 +39,7 @@ vim +PluginInstall +qall
 
 # install command use brew
 brew install tig
-brew install git
 brew install ncdu
-brew install python
-brew install wget
 brew install yarn
 brew install ranger
 brew install autojump

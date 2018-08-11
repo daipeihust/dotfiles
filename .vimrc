@@ -1,5 +1,3 @@
-colorscheme  atom-dark-256
-
 
 " make configuration work immediately 
 autocmd BufWritePost $MYVIMRC source $MYVIMRC
@@ -62,9 +60,6 @@ Plugin 'flazz/vim-colorschemes'
 
 " install lightline
 Plugin 'itchyny/lightline.vim'
-
-" install ondark theme
-" Plugin 'joshdick/onedark.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -187,7 +182,7 @@ endif
 set scrolloff=3
 
 " set theme
-colorscheme onedark
+" colorscheme onedark
 
 " set lightline theme
 let g:lightline = {

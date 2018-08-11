@@ -1,13 +1,14 @@
 
+# fix bug for oh-my-zsh
+TRAPWINCH() {
+  zle && { zle reset-prompt; zle -R }
+}
+
 # use dir name to change dir directly
 setopt AUTO_CD
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -83,6 +84,14 @@ export LANG=en_US.UTF-8
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+
+# key map start here
+
+# key map up and down for zsh-history-substring-search
+bindkey '^[OA' history-substring-search-up
+bindkey '^[OB' history-substring-search-down
+
+# key map end here
 
 # alias start here
 

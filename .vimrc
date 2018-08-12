@@ -182,7 +182,7 @@ endif
 set scrolloff=3
 
 " set theme
-" colorscheme onedark
+colorscheme onedark
 
 " set lightline theme
 let g:lightline = {

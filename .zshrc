@@ -49,6 +49,7 @@ zplug "plugins/rake",		from:oh-my-zsh
 zplug "plugins/bundler",		from:oh-my-zsh
 zplug "plugins/dotenv",		from:oh-my-zsh
 zplug "plugins/d",		from:oh-my-zsh
+zplug "plugins/sublime",		from:oh-my-zsh
 zplug "lib/*", from:oh-my-zsh
 zplug "plugins/correction",		from:oh-my-zsh
 zplug "b4b4r07/enhancd",		use:init.sh

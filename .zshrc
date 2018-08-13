@@ -114,7 +114,7 @@ alias h="~"
 
 # use the vim 8.0
 # alias vim="/usr/local/bin/vim"
-alias vim="/usr/bin/vim"
+# alias vim="/usr/bin/vim"
 
 # use the latest emacs
 alias emacs="/usr/local/Cellar/emacs/25.2/Emacs.app/Contents/MacOS/Emacs -nw"

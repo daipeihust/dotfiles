@@ -1,0 +1,24 @@
+{
+    "editor.smoothScrolling": true,
+    "vim.handleKeys": {
+        "<C-d>": true
+    },
+    "vim.easymotion": true,
+    "vim.surround": true,
+    "vim.leader": ",",
+    "vim.ignorecase": true,
+    "vim.useSystemClipboard": true,
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+    "autotest.ip": "http://localhost:1217",
+    // "autotest.ip": "http://30.55.212.74:1217",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "jsDocCompletion.enabled": true,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.showTabs": true
+}

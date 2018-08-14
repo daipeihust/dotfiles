@@ -18,9 +18,7 @@ Thumbs.db
 
 # ignored sublime configure file
 Package Control.cache/
-Package Control.merged-ca-bundle
-Package Control.system-ca-bundle
-Package Control.user-ca-bundle
 Package Control.last-run
 *.sublime-workspace
 .SublimeREPLHistory
+*-ca-*

@@ -22,3 +22,6 @@ Package Control.last-run
 *.sublime-workspace
 .SublimeREPLHistory
 *-ca-*
+
+# ignored vscode preference files
+workspaceStorage

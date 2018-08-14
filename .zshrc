@@ -108,6 +108,7 @@ bindkey '^[OB' history-substring-search-down
 
 alias czsh="vim ~/.zshrc"
 alias cvim="vim ~/.vimrc"
+alias cign="vim .gitignore"
 
 alias o="open ."
 

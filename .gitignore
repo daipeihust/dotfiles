@@ -16,7 +16,7 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
-# ignored sublime configure file
+# ignored sublime preference files
 Package Control.cache/
 Package Control.last-run
 *.sublime-workspace

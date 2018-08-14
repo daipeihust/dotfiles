@@ -5,10 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"Emmet",
 		"MarkdownEditing",
 		"MarkdownLivePreview",
 		"Package Control",
 		"Pretty JSON",
+		"SideBarEnhancements",
 		"Theme - One Dark"
 	]
 }

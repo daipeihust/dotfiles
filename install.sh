@@ -42,7 +42,6 @@ brew install yarn
 brew install ranger
 brew install autojump
 brew install thefuck
+brew install archey
 sudo pip3 install cheat
 sudo gem install bropages
-
-brew linkapps

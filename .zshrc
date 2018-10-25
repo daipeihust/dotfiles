@@ -136,9 +136,6 @@ alias s="find . | grep "
 # use icdiff with git
 alias gid="git icdiff"
 
-# pm alias
-alias go="pm go"
-
 # source .zshrc quickly
 alias upzsh="source ~/.zshrc"
 
@@ -192,10 +189,3 @@ function cw() {
 }
 
 
-# PM functions
-source ~/.pm/pm.zsh
-alias pma="pm add"
-alias pmg="pm go"
-alias pmrm="pm remove"
-alias pml="pm list"
-# end PM

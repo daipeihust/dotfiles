@@ -4,7 +4,7 @@
 mv -f $HOME/.vim $HOME/.vim.backup
 mv -f $HOME/.vimrc $HOME/.vimrc.backup
 mv -f $HOME/.zshrc $HOME/.zshrc.backup
-mv -f $HOME/dotfiles/.hyper.js $HOME/.hyper.js
+mv -f $HOME/.hyper.js $HOME/.hyper.js.backup
 
 # link new file
 ln -s $HOME/dotfiles/.vim $HOME/.vim
@@ -42,7 +42,9 @@ brew install yarn
 brew install ranger
 brew install autojump
 brew install thefuck
+brew install archey
 sudo pip3 install cheat
-sudo gem install bropages
 
-brew linkapps
+# install command use gem
+sudo gem install bropages
+sudo gem install cocoapods

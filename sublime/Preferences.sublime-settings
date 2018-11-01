@@ -2,7 +2,6 @@
 	"color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
 	"ignored_packages":
 	[
-		"Markdown"
 	],
 	"theme": "One Dark.sublime-theme",
 	"vintage_ctrl_keys": true,

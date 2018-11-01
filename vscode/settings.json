@@ -19,6 +19,6 @@
     },
     "jsDocCompletion.enabled": true,
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.editor.showTabs": true
+    "workbench.editor.showTabs": true,
+    "terminal.integrated.shell.osx": "/bin/zsh"
 }

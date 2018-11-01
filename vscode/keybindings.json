@@ -113,7 +113,7 @@
         "command": "workbench.action.focusPanel"
     },
     {
-        "key": "ctrl+alt+w",
+        "key": "cmd+k ctrl+w",
         "command": "workbench.action.switchWindow"
     },
     {
@@ -121,7 +121,7 @@
         "command": "-workbench.action.switchWindow"
     },
     {
-        "key": "ctrl+alt+r",
+        "key": "cmd+k ctrl+r",
         "command": "workbench.action.openRecent"
     },
     {

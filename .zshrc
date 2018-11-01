@@ -44,6 +44,7 @@ export ZPLUG=/usr/local/opt/zplug
 source $ZPLUG/init.zsh
 
 zplug "plugins/git",		from:oh-my-zsh
+zplug "plugins/vi-mode",		from:oh-my-zsh
 zplug "plugins/osx",		from:oh-my-zsh
 zplug "plugins/rake",		from:oh-my-zsh
 zplug "plugins/bundler",		from:oh-my-zsh

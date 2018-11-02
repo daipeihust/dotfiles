@@ -23,9 +23,6 @@ brew install wget
 # install zplug
 brew install zplug
 
-# install fzf
-brew install fzf
-
 # install vim plugin
 rm -rf .vim/bundle
 mkdir -p .vim/bundle

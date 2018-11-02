@@ -23,9 +23,6 @@ brew install wget
 # install zplug
 brew install zplug
 
-# use zplug install stuff
-zplug install
-
 # install fzf
 brew install fzf
 

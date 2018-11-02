@@ -29,19 +29,27 @@ HIST_STAMPS="yyyy-mm-dd"
 export ZPLUG=/usr/local/opt/zplug
 source $ZPLUG/init.zsh
 
+zplug "lib/*", from:oh-my-zsh
 zplug "plugins/git",		from:oh-my-zsh
 zplug "plugins/vi-mode",		from:oh-my-zsh
 zplug "plugins/osx",		from:oh-my-zsh
-zplug "plugins/d",		from:oh-my-zsh
 zplug "plugins/sublime",		from:oh-my-zsh
-zplug "lib/*", from:oh-my-zsh
 zplug "plugins/correction",		from:oh-my-zsh
 zplug "b4b4r07/enhancd",		use:init.sh
+zplug "mollifier/anyframe"
 zplug "zsh-users/zsh-syntax-highlighting",	defer:2
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-completions"
 zplug 'dracula/zsh',		as:theme
+
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
 
 # Then, source plugins and add commands to $PATH
 zplug load 
@@ -171,5 +179,24 @@ function cw() {
 		fi
 		curl ip.cn &
 }
+
+# keybinding for anyframe
+bindkey '^xb' anyframe-widget-cdr
+bindkey '^x^b' anyframe-widget-checkout-git-branch
+
+bindkey '^xr' anyframe-widget-execute-history
+bindkey '^x^r' anyframe-widget-execute-history
+
+bindkey '^xi' anyframe-widget-put-history
+bindkey '^x^i' anyframe-widget-put-history
+
+bindkey '^xg' anyframe-widget-cd-ghq-repository
+bindkey '^x^g' anyframe-widget-cd-ghq-repository
+
+bindkey '^xk' anyframe-widget-kill
+bindkey '^x^k' anyframe-widget-kill
+
+bindkey '^xe' anyframe-widget-insert-git-branch
+bindkey '^x^e' anyframe-widget-insert-git-branch
 
 

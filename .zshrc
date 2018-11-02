@@ -54,6 +54,9 @@ fi
 # Then, source plugins and add commands to $PATH
 zplug load 
 
+# remove repositories which are no longer managed
+zplug clean
+
 # zplug end
 
 # env varible for enhancd plugin

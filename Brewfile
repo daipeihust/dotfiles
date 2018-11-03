@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "archey"
 brew "cheat"
 brew "chisel"
 brew "cmake"

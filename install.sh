@@ -15,29 +15,14 @@ ln -s $HOME/dotfiles/.hyper.js $HOME/.hyper.js
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install base tool
-brew install git
-brew install python
-brew install wget
-
-# install zplug
-brew install zplug
+# install package by homebrew
+brew bundle
 
 # install vim plugin
 rm -rf .vim/bundle
 mkdir -p .vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git .vim/bundle/Vundle.vim
 vim +PluginInstall +qall
-
-# install command use brew
-brew install tig
-brew install ncdu
-brew install yarn
-brew install ranger
-brew install autojump
-brew install thefuck
-brew install archey
-sudo pip3 install cheat
 
 # install command use gem
 sudo gem install bropages

@@ -15,20 +15,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
-" PowerLine setting
-set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
-
-set nocompatible
+" color
 set t_Co=256
 
-"let g:minBufExplForceSyntaxEnable = 1
-"python from powerline.vim import setup as powerline_setup
-"python powerline_setup()
-"python del powerline_setup
-
-set laststatus=2 
-set guifont=Source\ Code\ Pro\ for\ Powerline:h12 
-set noshowmode
 
 " Vundle Setting
 set nocompatible              " be iMproved, required
@@ -51,8 +40,8 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'easymotion/vim-easymotion'
 
-" install fzf for vim
-set rtp+=/usr/local/bin/fzf
+" install fzf for vim, the fzf is installed by homebrew and this path is created by it too
+set rtp+=/usr/local/opt/fzf
 Plugin 'junegunn/fzf.vim'
 
 " install vim theme manager

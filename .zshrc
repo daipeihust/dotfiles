@@ -23,9 +23,9 @@ HIST_STAMPS="yyyy-mm-dd"
 
 # User configuration
 
-# default plugs
-# visit https://github.com/unixorn/awesome-zsh-plugins
 # zplug part
+# visit https://github.com/unixorn/awesome-zsh-plugins
+####################################################################################################
 export ZPLUG=/usr/local/opt/zplug
 source $ZPLUG/init.zsh
 
@@ -37,7 +37,6 @@ zplug "plugins/sublime",		from:oh-my-zsh
 zplug "plugins/correction",		from:oh-my-zsh
 zplug "b4b4r07/enhancd",		use:init.sh
 zplug "mollifier/anyframe"
-zplug "junegunn/fzf", as:command, hook-build:"./install"
 zplug "zsh-users/zsh-syntax-highlighting",	defer:2
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
@@ -58,10 +57,13 @@ zplug load
 # remove repositories which are no longer managed
 zplug clean
 
+export PATH=$HOME/.zplug/bin:$PATH
+
+####################################################################################################
 # zplug end
 
 # env varible for enhancd plugin
-export ENHANCD_FILTER=fzf
+export ENHANCD_FILTER=fzf:fzy
 
 # export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -203,6 +205,3 @@ bindkey '^x^k' anyframe-widget-kill
 bindkey '^xe' anyframe-widget-insert-git-branch
 bindkey '^x^e' anyframe-widget-insert-git-branch
 
-
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

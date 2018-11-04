@@ -37,7 +37,7 @@ zplug "plugins/sublime",		from:oh-my-zsh
 zplug "plugins/correction",		from:oh-my-zsh
 zplug "b4b4r07/enhancd",		use:init.sh
 zplug "mollifier/anyframe"
-zplug "zsh-users/zsh-syntax-highlighting",	defer:2
+zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-completions"

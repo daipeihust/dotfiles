@@ -12,7 +12,6 @@
     "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
     "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
     "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
-    "autotest.ip": "http://localhost:1217",
     // "autotest.ip": "http://30.55.212.74:1217",
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
@@ -20,5 +19,7 @@
     "jsDocCompletion.enabled": true,
     "explorer.confirmDelete": false,
     "workbench.editor.showTabs": true,
-    "terminal.integrated.shell.osx": "/bin/zsh"
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "autotest.tplVersion": "5.5.0",
+    "autotest.ip": "http://30.55.213.134:6108"
 }

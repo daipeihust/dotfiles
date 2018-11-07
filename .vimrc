@@ -1,7 +1,6 @@
 
 " Normal settion
 """"""""""""""""""""""""""""""""""""""""""""""""""
-
 " paste mode
 set paste
 
@@ -212,8 +211,6 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
-	" make configuration work immediately 
-	autocmd BufWritePost $MYVIMRC source $MYVIMRC
 	" make vimdiff wrap automatically
 	autocmd FilterWritePre * if &diff | setlocal wrap< | endif
 endif
@@ -237,7 +234,7 @@ imap <c-x><c-j> <plug>(fzf-complete-file-ag)
 imap <c-x><c-l> <plug>(fzf-complete-line)
 
 """"""""""copy""""""""""
-vmap <C-x> :!pbcopy<CR>
-vmap <C-c> :w !pbcopy<CR><CR>
+noremap <Leader>y "+y
+noremap <Leader>p "+p
 
 """"""""""""""""""""""""""""""""""""""""""""""""""

@@ -234,7 +234,7 @@ imap <c-x><c-j> <plug>(fzf-complete-file-ag)
 imap <c-x><c-l> <plug>(fzf-complete-line)
 
 """"""""""copy""""""""""
-noremap <Leader>y "+y
-noremap <Leader>p "+p
+noremap <leader>y "+y
+noremap <leader>p "+p
 
 """"""""""""""""""""""""""""""""""""""""""""""""""

@@ -25,7 +25,8 @@ HIST_STAMPS="yyyy-mm-dd"
 
 # zplug part
 # visit https://github.com/unixorn/awesome-zsh-plugins
-####################################################################################################
+##################################################
+
 export ZPLUG=/usr/local/opt/zplug
 source $ZPLUG/init.zsh
 
@@ -59,8 +60,8 @@ zplug clean
 
 export PATH=$HOME/.zplug/bin:$PATH
 
-####################################################################################################
 # zplug end
+##################################################
 
 # env varible for enhancd plugin
 export ENHANCD_FILTER=fzf:fzy
@@ -103,6 +104,7 @@ bindkey '^[OB' history-substring-search-down
 # key map end here
 
 # alias start here
+##################################################
 
 alias czsh="vim ~/.zshrc"
 alias cvim="vim ~/.vimrc"
@@ -112,12 +114,13 @@ alias o="open ."
 
 alias h="~"
 
-# use the vim 8.0
-# alias vim="/usr/local/bin/vim"
-# alias vim="/usr/bin/vim"
-
-# use the latest emacs
-alias emacs="/usr/local/Cellar/emacs/25.2/Emacs.app/Contents/MacOS/Emacs -nw"
+# the vim install by brew is preferred
+if [ -x /usr/local/bin/vim ]
+then
+		alias vim="/usr/local/bin/vim"
+else
+		alias vim="/usr/bin/vim"
+fi
 
 # check ip address quickly
 alias ip="curl ip.cn"
@@ -137,31 +140,11 @@ alias gid="git icdiff"
 # source .zshrc quickly
 alias upzsh="source ~/.zshrc"
 
-alias j="autojump"
-
 # alias stop here
+##################################################
 
 bindkey -v
 
-# Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
-# export COCOS_CONSOLE_ROOT=/usr/local/software/Cocos2d-x/cocos2d-x-3.13.1/tools/cocos2d-console/bin
-# export PATH=$COCOS_CONSOLE_ROOT:$PATH
-
-# Add environment variable COCOS_X_ROOT for cocos2d-x
-# export COCOS_X_ROOT=/usr/local/software/Cocos2d-x/
-# export PATH=$COCOS_X_ROOT:$PATH
-
-# Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
-# export COCOS_TEMPLATES_ROOT=/usr/local/software/Cocos2d-x/cocos2d-x-3.13.1/templates
-# export PATH=$COCOS_TEMPLATES_ROOT:$PATH
-
-# Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
-# export COCOS_CONSOLE_ROOT=/Users/daipei/Workshop/Clone/cocos2d-x-samples/libs/cocos2d-x/tools/cocos2d-console/bin
-# export PATH=$COCOS_CONSOLE_ROOT:$PATH
-
-# Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
-# export COCOS_TEMPLATES_ROOT=/Users/daipei/Workshop/Clone/cocos2d-x-samples/libs/cocos2d-x/templates
-# export PATH=$COCOS_TEMPLATES_ROOT:$PATH
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

@@ -123,7 +123,7 @@ else
 fi
 
 # check ip address quickly
-alias ip="curl ip.cn"
+alias ip="curl https://ip.cn"
 
 # musicbox alias
 alias mb="musicbox"
@@ -166,7 +166,7 @@ function cw() {
 				export https_proxy=""
 				export ftp_proxy=""
 		fi
-		curl ip.cn &
+		curl https://ip.cn &
 }
 
 # keybinding for anyframe

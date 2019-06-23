@@ -42,10 +42,16 @@ cask typora
 cask alfred
 cask xmind
 cask kaleidoscope
+cask keyboard-maestro
+cask reveal
 cask charles
 cask postman
 cask gas-mask
+cask shadowsocksx-ng
 
+cask jietu
+cask scroll-reverser
+cask bartender
 
 cask wechat
 cask youdaodict

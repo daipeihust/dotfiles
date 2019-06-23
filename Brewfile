@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+
 brew "archey"
 brew "autojump"
 brew "python"
@@ -29,4 +30,27 @@ brew "yarn"
 brew "you-get"
 brew "zplug"
 brew "zsh"
-cask "atom"
+
+cask iterm2
+cask google-chrome
+cask go2shell
+cask visual-studio-code
+cask sublime-text
+cask karabiner-elements
+cask sourcetree
+cask typora
+cask alfred
+cask xmind
+cask kaleidoscope
+cask charles
+cask postman
+cask gas-mask
+
+
+cask wechat
+cask youdaodict
+cask qqmusic
+cask baiducloud
+cask mplayerx
+cask daisydisk
+

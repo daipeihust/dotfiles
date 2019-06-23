@@ -52,6 +52,7 @@ cask shadowsocksx-ng
 cask jietu
 cask scroll-reverser
 cask bartender
+cask appcleaner
 
 cask wechat
 cask youdaodict

@@ -135,11 +135,16 @@ Plugin 'easymotion/vim-easymotion'
 set rtp+=/usr/local/opt/fzf
 Plugin 'junegunn/fzf.vim'
 
-" install vim theme manager
-Plugin 'flazz/vim-colorschemes'
-
 " install lightline
 Plugin 'itchyny/lightline.vim'
+
+Plugin 'joshdick/onedark.vim'
+
+Plugin 'sheerun/vim-polyglot'
+
+Plugin 'tpope/vim-surround'
+
+Plugin 'tpope/vim-repeat'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.

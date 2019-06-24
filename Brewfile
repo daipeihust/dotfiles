@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/services"
 
 brew "archey"
 brew "autojump"
@@ -30,6 +31,7 @@ brew "yarn"
 brew "you-get"
 brew "zplug"
 brew "zsh"
+brew "youtube-dl"
 
 cask iterm2
 cask google-chrome
@@ -53,6 +55,10 @@ cask jietu
 cask scroll-reverser
 cask bartender
 cask appcleaner
+cask caffeine
+
+cask slack
+cask vlc
 
 cask wechat
 cask youdaodict

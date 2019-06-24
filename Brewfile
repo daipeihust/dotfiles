@@ -3,9 +3,8 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 
-
+brew "cocoapods"
 brew "archey"
-brew "autojump"
 brew "python"
 brew "cheat", link: false
 brew "chisel"
@@ -15,7 +14,6 @@ brew "fzf"
 brew "fzy"
 brew "git"
 brew "htop"
-brew "mongodb"
 brew "mpg123"
 brew "ncdu"
 brew "pandoc"

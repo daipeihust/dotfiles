@@ -31,6 +31,7 @@ brew "yarn"
 brew "you-get"
 brew "zplug"
 brew "zsh"
+brew "gitmoji"
 brew "youtube-dl"
 
 cask 'iterm2'
@@ -56,6 +57,7 @@ cask 'scroll-reverser'
 cask 'bartender'
 cask 'appcleaner'
 cask 'caffeine'
+cask 'telegram'
 
 cask 'slack'
 cask 'vlc'

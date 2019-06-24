@@ -33,37 +33,37 @@ brew "zplug"
 brew "zsh"
 brew "youtube-dl"
 
-cask iterm2
-cask google-chrome
-cask go2shell
-cask visual-studio-code
-cask sublime-text
-cask karabiner-elements
-cask sourcetree
-cask typora
-cask alfred
-cask xmind
-cask kaleidoscope
-cask keyboard-maestro
-cask reveal
-cask charles
-cask postman
-cask gas-mask
-cask shadowsocksx-ng
+cask 'iterm2'
+cask 'google-chrome'
+cask 'go2shell'
+cask 'visual-studio-code'
+cask 'sublime-text'
+cask 'karabiner-elements'
+cask 'sourcetree'
+cask 'typora'
+cask 'alfred'
+cask 'xmind'
+cask 'kaleidoscope'
+cask 'keyboard-maestro'
+cask 'reveal'
+cask 'charles'
+cask 'postman'
+cask 'gas-mask'
+cask 'shadowsocksx-ng'
 
-cask jietu
-cask scroll-reverser
-cask bartender
-cask appcleaner
-cask caffeine
+cask 'jietu'
+cask 'scroll-reverser'
+cask 'bartender'
+cask 'appcleaner'
+cask 'caffeine'
 
-cask slack
-cask vlc
+cask 'slack'
+cask 'vlc'
 
-cask wechat
-cask youdaodict
-cask qqmusic
-cask baiducloud
-cask mplayerx
-cask daisydisk
+cask 'wechat'
+cask 'youdaodict'
+cask 'qqmusic'
+cask 'baiducloud'
+cask 'mplayerx'
+cask 'daisydisk'
 

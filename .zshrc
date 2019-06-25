@@ -164,13 +164,11 @@ function proxy() {
 }
 
 function gitproxy() {
-	git config --global http.proxy 'http://127.0.0.1:1087'
-	git config --global https.proxy 'https://127.0.0.1:1087'
+	git config --global http.proxy 'socks5h://127.0.0.1:1086'
 }
 
 function gitunproxy() {
 	git config --global --unset http.proxy
-	git config --global --unset https.proxy
 }
 
 function unproxy() {

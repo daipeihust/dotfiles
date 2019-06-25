@@ -31,7 +31,6 @@ brew "you-get"
 brew "zplug"
 brew "zsh"
 brew "gitmoji"
-brew "youtube-dl"
 
 cask 'iterm2'
 cask 'google-chrome'
@@ -39,7 +38,6 @@ cask 'go2shell'
 cask 'visual-studio-code'
 cask 'sublime-text'
 cask 'karabiner-elements'
-cask 'sourcetree'
 cask 'typora'
 cask 'alfred'
 cask 'xmind'
@@ -56,7 +54,6 @@ cask 'scroll-reverser'
 cask 'bartender'
 cask 'appcleaner'
 cask 'caffeine'
-cask 'telegram'
 
 cask 'slack'
 cask 'vlc'
@@ -68,3 +65,6 @@ cask 'baiducloud'
 cask 'mplayerx'
 cask 'daisydisk'
 
+cask 'sourcetree'
+brew "youtube-dl"
+cask 'telegram'

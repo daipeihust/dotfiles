@@ -39,3 +39,9 @@ mv -f $HOME/.zshrc $HOME/.zshrc.backup
 ln -s $HOME/dotfiles/.zshrc $HOME/.zshrc
 ##############################
 
+########## git part ##########
+mv -f $HOME/.gitconfig $HOME/.gitconfig.backup
+ln -s $HOME/dotfiles/.gitconfig $HOME/.gitconfig
+##############################
+
+

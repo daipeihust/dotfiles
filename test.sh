@@ -1,8 +1,6 @@
 
-if [ -L $HOME/.vim.backup ]
+if [ -d $HOME/Library/Application\ Support/Code/User ]
 then
-	rm $HOME/.vim.backup
-elif [ -d $HOME/.vim.backup ]
-then
-	rm -rf $HOME/.vim.backup
+	rm -rf $HOME/Library/Application\ Support/Code/User
+	ln -s $HOME/dotfiles/vscode $HOME/Library/Application\ Support/Code/User
 fi

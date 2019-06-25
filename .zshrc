@@ -158,21 +158,14 @@ export NVM_DIR="$HOME/.nvm"
 eval $(thefuck --alias)
 
 # http proxy configure script
-function cw() {
-		if [ "$http_proxy" = "" ]
-		then
-				# I don't neet polipo anymore, because next generation shadowsocks have http proxy
-				# launchctl load ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
-				export http_proxy=http://localhost:1090
-				export https_proxy=http://localhost:1090
-				export ftp_proxy=http://localhost:1090
-		else
-				# launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
-				export http_proxy=""
-				export https_proxy=""
-				export ftp_proxy=""
-		fi
-		curl https://ip.cn &
+function proxy() {
+	export all_proxy=http://localhost:1087
+	curl ip.sb
+}
+
+function unproxy() {
+	unset all_proxy
+	curl ip.sb
 }
 
 # keybinding for anyframe

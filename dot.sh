@@ -9,8 +9,8 @@ then
 	rm -rf $HOME/.vim.backup
 fi
 
-mv -f $HOME/.vim $HOME/.vim.backup
 mv -f $HOME/.zshrc $HOME/.zshrc.backup
+mv -f $HOME/.vimrc $HOME/.vimrc.backup
 
 # link new file
 ln -s $HOME/dotfiles/.vim $HOME/.vim

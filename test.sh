@@ -1,6 +1,10 @@
 
-if [ -d $HOME/Library/Application\ Support/Code/User ]
+if [ -d $HOME/.ssh ]
 then
-	rm -rf $HOME/Library/Application\ Support/Code/User
-	ln -s $HOME/dotfiles/vscode $HOME/Library/Application\ Support/Code/User
+	if [ -f $HOME/.ssh/config ]
+	then
+		mv -f $HOME/.ssh/config $HOME/.ssh/config.backup 
+	fi
+
+	ln -s $HOME/dotfiles/sshconfig $HOME/.ssh/config
 fi

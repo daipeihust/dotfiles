@@ -15,6 +15,17 @@ then
 	ln -s $HOME/dotfiles/vscode $HOME/Library/Application\ Support/Code/User
 fi
 
+if [ -d $HOME/.ssh ]
+then
+	if [ -f $HOME/.ssh/config ]
+	then
+		mv -f $HOME/.ssh/config $HOME/.ssh/config.backup 
+	fi
+
+	ln -s $HOME/dotfiles/sshconfig $HOME/.ssh/config
+fi
+
+
 mv -f $HOME/.zshrc $HOME/.zshrc.backup
 mv -f $HOME/.vimrc $HOME/.vimrc.backup
 

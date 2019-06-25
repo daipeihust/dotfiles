@@ -163,6 +163,16 @@ function proxy() {
 	curl ip.sb
 }
 
+function gitproxy() {
+	git config --global http.proxy 'http://127.0.0.1:1087'
+	git config --global https.proxy 'https://127.0.0.1:1087'
+}
+
+function gitunproxy() {
+	git config --global --unset http.proxy
+	git config --global --unset https.proxy
+}
+
 function unproxy() {
 	unset all_proxy
 	curl ip.sb

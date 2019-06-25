@@ -4,6 +4,4 @@
 name = daipei
 email = daipei@hust.edu.cn
 [http]
-	proxy = http://127.0.0.1:1087
-[https]
-	proxy = https://127.0.0.1:1087
+	proxy = socks5h://127.0.0.1:1086

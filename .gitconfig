@@ -4,4 +4,6 @@
 name = daipei
 email = daipei@hust.edu.cn
 [http]
-	proxy = socks5h://127.0.0.1:1086
+	postBuffer = 524288000
+[core]
+	compression = 0

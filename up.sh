@@ -9,4 +9,4 @@ git add --all >> up.out
 git commit -m "update dotfile" >> up.out
 git push >> up.out
 
-echo 'finish' >> up.out
+echo 'finish\n\n\n' >> up.out

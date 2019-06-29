@@ -28,6 +28,7 @@ brew "you-get"
 brew "zplug"
 brew "zsh"
 brew "gitmoji"
+brew "youtube-dl"
 
 cask 'iterm2'
 cask 'google-chrome'
@@ -63,5 +64,8 @@ cask 'mplayerx'
 cask 'daisydisk'
 
 cask 'sourcetree'
-brew "youtube-dl"
 cask 'telegram'
+
+cask 'qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo'
+
+

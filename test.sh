@@ -1,3 +1,14 @@
+if [ -d $HOME/.supervisor.backup ]
+then
+	rm -rf $HOME/.supervisor.backup
+elif [ -L $HOME/.supervisor.backup ]
+then
+	rm $HOME/.supervisor.backup
+fi
 
-mv -f $HOME/.gitconfig $HOME/.gitconfig.backup
-ln -s $HOME/dotfiles/.gitconfig $HOME/.gitconfig
+if [ -d $HOME/.supervisor ]
+then
+	mv -f $HOME/.supervisor $HOME/.supervisor.backup
+fi
+	
+ln -s $HOME/dotfiles/.supervisor $HOME/.supervisor

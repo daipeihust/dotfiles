@@ -1,63 +1,44 @@
 #!/bin/zsh
 
-########## vim part ##########
-if [ -L $HOME/.vim.backup ]
-then
-	rm $HOME/.vim.backup
-elif [ -d $HOME/.vim.backup ]
-then
-	rm -rf $HOME/.vim.backup
-fi
+link() {
+	local file=$1
+	local target=$2
 
-mv -f $HOME/.vimrc $HOME/.vimrc.backup
-ln -s $HOME/dotfiles/.vim $HOME/.vim
-ln -s $HOME/dotfiles/.vimrc $HOME/.vimrc
-##############################
-
-
-########## vscode ##########
-if [ -d $HOME/Library/Application\ Support/Code/User ]
-then
-	rm -rf $HOME/Library/Application\ Support/Code/User
-	ln -s $HOME/dotfiles/vscode $HOME/Library/Application\ Support/Code/User
-fi
-############################
-
-########## ssh part ##########
-if [ -d $HOME/.ssh ]
-then
-	if [ -f $HOME/.ssh/config ]
+	local backup=$target.backup
+	if [ -L $backup ]
 	then
-		mv -f $HOME/.ssh/config $HOME/.ssh/config.backup 
+		rm $backup
+	elif [ -d $backup ]
+	then
+		rm -rf $backup
 	fi
-	ln -s $HOME/dotfiles/sshconfig $HOME/.ssh/config
-fi
-##############################
-
-########## zsh part ##########
-mv -f $HOME/.zshrc $HOME/.zshrc.backup
-ln -s $HOME/dotfiles/.zshrc $HOME/.zshrc
-##############################
-
-########## git part ##########
-mv -f $HOME/.gitconfig $HOME/.gitconfig.backup
-ln -s $HOME/dotfiles/.gitconfig $HOME/.gitconfig
-##############################
-
-########## supervisor ##########
-if [ -d $HOME/.supervisor.backup ]
-then
-	rm -rf $HOME/.supervisor.backup
-elif [ -L $HOME/.supervisor.backup ]
-then
-	rm $HOME/.supervisor.backup
-fi
-
-if [ -d $HOME/.supervisor ]
-then
-	mv -f $HOME/.supervisor $HOME/.supervisor.backup
-fi
 	
-ln -s $HOME/dotfiles/.supervisor $HOME/.supervisor
-################################
+	if [ -L $target ]
+	then
+		rm $target
+	elif [ -f $target -o -d $target ]
+	then
+		mv $target $target.backup
+	fi
+
+	local origin=$HOME/dotfiles/$file
+
+	ln -s $origin $target
+}
+
+cd $HOME/dotfiles
+
+link .vim $HOME/.vim
+link .vimrc $HOME/.vimrc
+
+link vscode $HOME/Library/Application\ Support/Code/User
+
+link sshconfig $HOME/.ssh/config
+
+link .zshrc $HOME/.zshrc
+
+link .gitconfig $HOME/.gitconfig
+
+link supervisor.d /usr/local/etc/supervisor.d
+mkdir $HOME/.supervisor
 

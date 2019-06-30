@@ -12,5 +12,5 @@ do
 	git push >> sync.out
 
 	echo 'finish\n\n\n' >> sync.out
-	sleep 5
+	sleep 30m
 done

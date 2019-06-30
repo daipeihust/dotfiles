@@ -1,14 +1,33 @@
-if [ -d $HOME/.supervisor.backup ]
-then
-	rm -rf $HOME/.supervisor.backup
-elif [ -L $HOME/.supervisor.backup ]
-then
-	rm $HOME/.supervisor.backup
-fi
+#!/bin/zsh
 
-if [ -d $HOME/.supervisor ]
-then
-	mv -f $HOME/.supervisor $HOME/.supervisor.backup
-fi
+backupAndLink() {
+	local backup=$HOME/$1.backup
+	if [ -L $backup ]
+	then
+		rm $backup
+	elif [ -d $backup ]
+	then
+		rm -rf $backup
+	fi
+
+	target=$HOME/$1
 	
-ln -s $HOME/dotfiles/.supervisor $HOME/.supervisor
+	if [ -L $target ]
+	then
+		rm $target
+	elif [ -f $target -o -d $target ]
+	then
+		mv $target $target.backup
+	fi
+
+	origin=$HOME/dotfiles/$1
+
+	ln -s $origin $target
+}
+
+########## vim part ##########
+
+backupAndLink .vim
+backupAndLink .vimrc
+
+##############################

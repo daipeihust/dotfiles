@@ -2,6 +2,7 @@
 # use dir name to change dir directly
 setopt AUTO_CD
 
+
 setopt no_nomatch
 
 # Uncomment the following line to disable auto-setting terminal title.

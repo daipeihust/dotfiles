@@ -41,4 +41,5 @@ link .gitconfig $HOME/.gitconfig
 
 link supervisor.d /usr/local/etc/supervisor.d
 mkdir $HOME/.supervisor
+sudo brew services start supervisor
 

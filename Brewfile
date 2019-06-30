@@ -31,6 +31,7 @@ brew "gitmoji"
 brew "youtube-dl"
 
 cask 'iterm2'
+cask 'termius'
 cask 'google-chrome'
 cask 'go2shell'
 cask 'visual-studio-code'

@@ -78,7 +78,7 @@ export THEOS=/opt/theos
 export PATH=$THEOS/bin:$PATH
 
 # my shadowsocks server ip
-export VPS="138.68.227.123"
+export VPS="47.244.243.77"
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -130,7 +130,7 @@ else
 fi
 
 # check ip address quickly
-alias ip="curl https://ip.cn"
+alias ip="curl https://ip.sb"
 
 # musicbox alias
 alias mb="musicbox"
@@ -165,7 +165,7 @@ function proxy() {
 }
 
 function gitproxy() {
-	git config --global http.proxy 'socks5h://127.0.0.1:1086'
+	git config --global http.proxy 'socks5h://localhost:1086'
 }
 
 function gitunproxy() {

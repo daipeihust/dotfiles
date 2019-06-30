@@ -130,7 +130,7 @@ else
 fi
 
 # check ip address quickly
-alias ip="curl https://ip.sb"
+alias ip="curl ip.sb"
 
 # musicbox alias
 alias mb="musicbox"

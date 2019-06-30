@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.daipei.dotfiles</string>
+  <string>com.daipei.dotfiles.sync</string>
   <key>ProgramArguments</key>
   <array>
-    <string>/Users/daipei/dotfiles/up.sh</string>
+    <string>/Users/daipei/dotfiles/sync/sync.sh</string>
   </array>
   <key>StartInterval</key>
   <integer>3600</integer>
 <key>StandardOutPath</key>
-<string>/Users/daipei/dotfiles/up.out</string>
+<string>/Users/daipei/dotfiles/sync/sync.out</string>
 <key>StandardErrorPath</key>
-<string>/Users/daipei/dotfiles/up.err</string>
+<string>/Users/daipei/dotfiles/sync/sync.err</string>
 </dict>
 </plist>

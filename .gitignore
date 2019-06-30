@@ -1,5 +1,5 @@
-up.out
-up.err
+**/*.out
+**/*.err
 swaps
 # Plugin directory 
 bundle

@@ -4,3 +4,7 @@ ServerAliveInterval 120
 Host github.com
 User git
 ProxyCommand nc -X 5 -x 127.0.0.1:1086 %h %p
+
+Host 47.244.243.77
+ProxyCommand nc -X 5 -x 127.0.0.1:1086 %h %p
+

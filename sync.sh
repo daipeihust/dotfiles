@@ -2,15 +2,15 @@
 
 while :
 do
-	cd /Users/daipei/dotfiles &&
+	cd /Users/daipei/dotfiles
 
-	echo `date` >> sync.out &&
+	echo `date` >> sync.info
 
-	git pull >> sync.out &&
-	git add --all >> sync.out &&
-	git commit -m "update dotfile" >> sync.out &&
-	git push >> sync.out
+	git pull >> sync.info
+	git add --all >> sync.info
+	git commit -m "update dotfile" >> sync.info
+	git push >> sync.info
 
-	echo 'finish\n\n\n' >> sync.out
-	sleep 30m
+	echo 'finish\n\n\n' >> sync.info
+	sleep 1m
 done

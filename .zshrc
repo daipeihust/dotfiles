@@ -38,13 +38,13 @@ zplug "plugins/git",		from:oh-my-zsh
 zplug "plugins/vi-mode",		from:oh-my-zsh
 zplug "plugins/osx",		from:oh-my-zsh
 zplug "plugins/sublime",		from:oh-my-zsh
-#zplug "plugins/correction",		from:oh-my-zsh
+zplug "plugins/correction",		from:oh-my-zsh
 zplug "b4b4r07/enhancd",		use:init.sh
 zplug "mollifier/anyframe"
-zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search"
-#zplug "zsh-users/zsh-autosuggestions"
-#zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-completions"
 zplug 'dracula/zsh',		as:theme
 
 # Install plugins if there are plugins that have not been installed
@@ -80,6 +80,7 @@ export PATH=$THEOS/bin:$PATH
 
 # my shadowsocks server ip
 export VPS="47.244.243.77"
+export vps=root@$VPS
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -146,7 +147,7 @@ alias s="find . | grep "
 alias gid="git icdiff"
 
 # source .zshrc quickly
-alias upzsh="source ~/.zshrc"
+alias szsh="source ~/.zshrc"
 
 # alias stop here
 ##################################################

@@ -1,15 +1,18 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-name = daipei
-email = daipei@hust.edu.cn
+	name = daipei
+	email = daipei@celer.network
 [http]
 	postBuffer = 524288000
 [core]
 	compression = 0
+	excludesfile = /Users/daipei/.gitignore_global
 [difftool "sourcetree"]
 	cmd = /usr/local/bin/ksdiff -w \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
 	cmd = /Users/daipei/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[commit]
+	template = /Users/daipei/.stCommitMsg

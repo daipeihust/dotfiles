@@ -11,3 +11,6 @@ brew bundle
 curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_mac.sh | sh
 
 ./vim.sh
+
+# install pynvim for deoplete
+pip3 install --user pynvim

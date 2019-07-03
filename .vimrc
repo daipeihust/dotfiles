@@ -146,6 +146,12 @@ Plugin 'tpope/vim-surround'
 
 Plugin 'tpope/vim-repeat'
 
+Plugin 'Shougo/deoplete.nvim'
+
+" install for deoplete
+Plugin 'roxma/nvim-yarp'
+Plugin 'roxma/vim-hug-neovim-rpc'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo

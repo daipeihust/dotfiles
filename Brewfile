@@ -47,6 +47,7 @@ cask 'charles'
 cask 'postman'
 cask 'gas-mask'
 cask 'shadowsocksx-ng'
+cask 'wwdc'
 
 cask 'jietu'
 cask 'scroll-reverser'
@@ -67,6 +68,5 @@ cask 'daisydisk'
 cask 'sourcetree'
 cask 'telegram'
 
-cask 'qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo'
 
 

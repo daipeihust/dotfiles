@@ -1,0 +1,211 @@
+Wed Jul 3 23:47:00 CST 2019
+[master abae47c] update dotfile
+ Committer: System Administrator <root@daipeideMacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 15 files changed, 46 insertions(+), 19 deletions(-)
+ create mode 100644 Brewfile_quicklook
+ create mode 100644 sync.out
+ rewrite vscode/globalStorage/state.vscdb (79%)
+ create mode 100644 vscode/globalStorage/state.vscdb.backup
+finish
+
+
+
+Wed Jul 3 23:47:07 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:12 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:16 CST 2019
+Wed Jul 3 23:47:17 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:21 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:29 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:33 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:37 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:41 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:46 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:51 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:55 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:47:59 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:48:07 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:48:11 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:48:15 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:48:19 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+finish
+
+
+
+Wed Jul 3 23:48:25 CST 2019
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+Wed Jul 3 23:53:43 CST 2019
+Already up to date.
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	modified:   .gitignore
+	deleted:    sync.out
+	modified:   sync.sh
+
+Untracked files:
+	sync.info
+
+no changes added to commit
+finish
+
+
+
+Thu Jul 4 00:56:10 CST 2019
+Already up to date.

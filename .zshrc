@@ -1,4 +1,7 @@
 
+# use zsh/zpty
+zmodload zsh/zpty
+
 # use dir name to change dir directly
 setopt AUTO_CD
 

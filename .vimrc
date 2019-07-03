@@ -1,6 +1,9 @@
 
 " Normal settion
 """"""""""""""""""""""""""""""""""""""""""""""""""
+" vim system completion
+set cot=noselect,menu,preview
+
 " paste mode
 set paste
 
@@ -152,6 +155,10 @@ Plugin 'Shougo/deoplete.nvim'
 Plugin 'roxma/nvim-yarp'
 Plugin 'roxma/vim-hug-neovim-rpc'
 
+
+" cheat sheet
+Plugin 'lifepillar/vim-cheat40'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -185,6 +192,35 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
+
+" config plugin
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
+if !exists('g:deoplete#omni#input_patterns')
+  let g:deoplete#omni#input_patterns = {}
+endif
+autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+" <TAB>: completion.
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+
+" configuration for dictionary source with multiple
+" dictionary files.
+setlocal dictionary+=/usr/share/dict/words
+setlocal dictionary+=/usr/share/dict/american-english
+" Remove this if you'd like to use fuzzy search
+call deoplete#custom#source(
+\ 'dictionary', 'matchers', ['matcher_head'])
+" If dictionary is already sorted, no need to sort it again.
+call deoplete#custom#source(
+\ 'dictionary', 'sorters', [])
+" Do not complete too short words
+call deoplete#custom#source(
+\ 'dictionary', 'min_pattern_length', 4)
+
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Use relative line numbers
 if exists("&relativenumber")

@@ -7,10 +7,10 @@ do
 	echo `date` &>> sync.info
 
 	git pull &>> sync.info
-	echo 'pull finish \n ready to commit'
+	echo 'pull finish \nready to commit'
 	git add --all
 	git commit -m "update dotfile" &>> sync.info
-	echo 'commit finish \n ready to push'
+	echo 'commit finish \nready to push'
 	git push &>> sync.info
 	echo 'push finish'
 

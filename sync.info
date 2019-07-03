@@ -219,3 +219,17 @@ finish
 
 Thu Jul 4 00:56:30 CST 2019
 Already up to date.
+[master 9397fe5] update dotfile
+ 1 file changed, 10 insertions(+)
+Thu Jul 4 00:58:03 CST 2019
+Thu Jul 4 01:01:32 CST 2019
+Already up to date.
+error: insufficient permission for adding an object to repository database .git/objects
+error: insufficient permission for adding an object to repository database .git/objects
+error: Error building trees
+To github.com:daipeihust/dotfiles.git
+   e267ae4..9397fe5  master -> master
+finish
+
+
+

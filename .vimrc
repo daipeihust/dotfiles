@@ -72,12 +72,14 @@ set cursorline
 " Highlight current column
 set cursorcolumn
 " Show “invisible” characters
-"set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+" set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 " set list
 " Highlight searches
-set hlsearch
+" set hlsearch
 " Ignore case of searches
 set ignorecase
+" smart case
+set smartcase
 " Highlight dynamically as pattern is typed
 set incsearch
 " Always show status line
@@ -157,6 +159,8 @@ Plugin 'yianwillis/vimcdoc'
 Plugin 'lifepillar/vim-cheat40'
 
 Plugin 'ycm-core/YouCompleteMe'
+
+Plugin 'keith/swift.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -255,6 +259,7 @@ imap <c-x><c-k> <plug>(fzf-complete-word)
 imap <c-x><c-f> <plug>(fzf-complete-path)
 imap <c-x><c-j> <plug>(fzf-complete-file-ag)
 imap <c-x><c-l> <plug>(fzf-complete-line)
+imap <c-x><c-k> <plug>(fzf-complete-word)
 
 """"""""""copy""""""""""
 noremap <leader>y "+y

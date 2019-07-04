@@ -123,6 +123,7 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
+
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
@@ -150,14 +151,21 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 
 Plugin 'Shougo/deoplete.nvim'
+Plugin 'deoplete-plugins/deoplete-dictionary'
 
 " install for deoplete
 Plugin 'roxma/nvim-yarp'
 Plugin 'roxma/vim-hug-neovim-rpc'
 
 
+Plugin 'prabirshrestha/asyncomplete.vim'
+
+
 " cheat sheet
 Plugin 'lifepillar/vim-cheat40'
+
+" YouCompleteMe
+Plugin 'ycm-core/YouCompleteMe#macos'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -201,6 +209,9 @@ if !exists('g:deoplete#omni#input_patterns')
   let g:deoplete#omni#input_patterns = {}
 endif
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+let g:deoplete#delimiters = ['/','.']
+let g:deoplete#keyword_patterns = {}
+let g:deoplete#keyword_patterns._ = '[a-zA-Z_]\k*\(?'
 " <TAB>: completion.
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
@@ -217,6 +228,12 @@ call deoplete#custom#source(
 " Do not complete too short words
 call deoplete#custom#source(
 \ 'dictionary', 'min_pattern_length', 4)
+
+
+" 
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr>    pumvisible() ? "\<C-y>" : "\<cr>"
 
 
 

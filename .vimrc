@@ -150,19 +150,13 @@ Plugin 'tpope/vim-surround'
 
 Plugin 'tpope/vim-repeat'
 
-Plugin 'Shougo/deoplete.nvim'
-Plugin 'deoplete-plugins/deoplete-dictionary'
-
-" install for deoplete
-Plugin 'roxma/nvim-yarp'
-Plugin 'roxma/vim-hug-neovim-rpc'
-
-
-Plugin 'prabirshrestha/asyncomplete.vim'
-
+" a chinese doc for vim
+Plugin 'yianwillis/vimcdoc'
 
 " cheat sheet
 Plugin 'lifepillar/vim-cheat40'
+
+Plugin 'ycm-core/YouCompleteMe'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -200,38 +194,6 @@ filetype plugin indent on    " required
 
 " config plugin
 """"""""""""""""""""""""""""""""""""""""""""""""""
-" Use deoplete.
-let g:deoplete#enable_at_startup = 1
-if !exists('g:deoplete#omni#input_patterns')
-  let g:deoplete#omni#input_patterns = {}
-endif
-autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
-let g:deoplete#delimiters = ['/','.']
-let g:deoplete#keyword_patterns = {}
-let g:deoplete#keyword_patterns._ = '[a-zA-Z_]\k*\(?'
-" <TAB>: completion.
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-
-" configuration for dictionary source with multiple
-" dictionary files.
-setlocal dictionary+=/usr/share/dict/words
-setlocal dictionary+=/usr/share/dict/american-english
-" Remove this if you'd like to use fuzzy search
-call deoplete#custom#source(
-\ 'dictionary', 'matchers', ['matcher_head'])
-" If dictionary is already sorted, no need to sort it again.
-call deoplete#custom#source(
-\ 'dictionary', 'sorters', [])
-" Do not complete too short words
-call deoplete#custom#source(
-\ 'dictionary', 'min_pattern_length', 4)
-
-
-" 
-inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-inoremap <expr> <cr>    pumvisible() ? "\<C-y>" : "\<cr>"
-
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""

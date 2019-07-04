@@ -328,3 +328,23 @@ finish
 
 
 Thu Jul 4 16:07:27 CST 2019
+[master 4f1c612] update dotfile
+ Committer: System Administrator <root@daipeideMacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 20 insertions(+)
+finish
+
+
+
+Fri Jul 5 00:34:14 CST 2019

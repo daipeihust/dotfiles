@@ -79,7 +79,7 @@ set cursorcolumn
 " Ignore case of searches
 set ignorecase
 " smart case
-set smartcase
+" set smartcase
 " Highlight dynamically as pattern is typed
 set incsearch
 " Always show status line
@@ -162,6 +162,14 @@ Plugin 'ycm-core/YouCompleteMe'
 
 Plugin 'keith/swift.vim'
 
+" ---------- ios dev ----------
+
+Plugin 'xavierd/clang_complete'
+Plugin 'eraserhd/vim-ios'
+Plugin 'msanders/cocoa.vim'
+
+" ----------------------------
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -240,6 +248,8 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 	" make vimdiff wrap automatically
 	autocmd FilterWritePre * if &diff | setlocal wrap< | endif
+	" Automatically source vimrc on save.
+	autocmd! bufwritepost $MYVIMRC source $MYVIMRC
 endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""

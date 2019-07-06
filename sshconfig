@@ -1,7 +1,6 @@
 Host *
 ServerAliveInterval 120
 
-
 Host 47.244.243.77
 ProxyCommand nc -X 5 -x 127.0.0.1:1086 %h %p
 

@@ -582,3 +582,55 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master 6503f48] update dotfile
+ Committer: System Administrator <root@daipeideMacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 84 insertions(+)
+ rewrite vscode/globalStorage/state.vscdb.backup (64%)
+ssh: connect to host github.com port 22: Network is down
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+Sat Jul 6 15:15:05 CST 2019
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+

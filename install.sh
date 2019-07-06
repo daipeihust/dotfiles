@@ -1,16 +1,17 @@
 #!/bin/zsh
 
-./dot.sh
-
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install package by homebrew
-brew bundle
+brew bundle # install package by homebrew
 
-curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_mac.sh | sh
+./link.sh # link configure files
 
-./vim.sh
+sudo brew services start supervisor # start supervisor service
 
-# install pynvim for deoplete
-pip3 install --user pynvim
+curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_mac.sh | sh # install im-select
+
+./vim.sh # install vim plugin
+
+pip3 install --user pynvim # install pynvim for deoplete
+

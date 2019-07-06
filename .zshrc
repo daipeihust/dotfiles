@@ -92,6 +92,11 @@ export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export PATH=/Users/daipei/development/flutter/bin:$PATH
 
+# cheat configuration
+export CHEAT_COLORS=true
+export CHEAT_COLORSCHEME=dark
+export CHEAT_EDITOR=vim
+
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'

@@ -30,16 +30,11 @@ cd $HOME/dotfiles
 
 link .vim $HOME/.vim
 link .vimrc $HOME/.vimrc
-
 link vscode $HOME/Library/Application\ Support/Code/User
-
 link sshconfig $HOME/.ssh/config
-
 link .zshrc $HOME/.zshrc
-
 link .gitconfig $HOME/.gitconfig
-
+link .cheat $HOME/.cheat
 link supervisor.d /usr/local/etc/supervisor.d
 mkdir $HOME/.supervisor
-sudo brew services start supervisor
 

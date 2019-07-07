@@ -20,4 +20,5 @@
     "terminal.integrated.shell.osx": "/bin/zsh",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Material Theme",
+    "workbench.startupEditor": "newUntitledFile",
 }

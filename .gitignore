@@ -1,3 +1,7 @@
+
+**/*.err
+**/*.info
+
 swaps
 # Plugin directory 
 bundle

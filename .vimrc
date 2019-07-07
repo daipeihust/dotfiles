@@ -1,6 +1,9 @@
 
 " Normal settion
 """"""""""""""""""""""""""""""""""""""""""""""""""
+" vim system completion
+set cot=noselect,menu,preview
+
 " paste mode
 set paste
 
@@ -69,12 +72,14 @@ set cursorline
 " Highlight current column
 set cursorcolumn
 " Show “invisible” characters
-"set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+" set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 " set list
 " Highlight searches
-set hlsearch
+" set hlsearch
 " Ignore case of searches
 set ignorecase
+" smart case
+" set smartcase
 " Highlight dynamically as pattern is typed
 set incsearch
 " Always show status line
@@ -120,6 +125,7 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
+
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
@@ -145,6 +151,24 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-surround'
 
 Plugin 'tpope/vim-repeat'
+
+" a chinese doc for vim
+Plugin 'yianwillis/vimcdoc'
+
+" cheat sheet
+Plugin 'lifepillar/vim-cheat40'
+
+Plugin 'ycm-core/YouCompleteMe'
+
+Plugin 'keith/swift.vim'
+
+" ---------- ios dev ----------
+
+Plugin 'xavierd/clang_complete'
+Plugin 'eraserhd/vim-ios'
+Plugin 'msanders/cocoa.vim'
+
+" ----------------------------
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -179,6 +203,12 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
+
+" config plugin
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Use relative line numbers
 if exists("&relativenumber")
@@ -218,6 +248,8 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 	" make vimdiff wrap automatically
 	autocmd FilterWritePre * if &diff | setlocal wrap< | endif
+	" Automatically source vimrc on save.
+	autocmd! bufwritepost $MYVIMRC source $MYVIMRC
 endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
@@ -237,6 +269,7 @@ imap <c-x><c-k> <plug>(fzf-complete-word)
 imap <c-x><c-f> <plug>(fzf-complete-path)
 imap <c-x><c-j> <plug>(fzf-complete-file-ag)
 imap <c-x><c-l> <plug>(fzf-complete-line)
+imap <c-x><c-k> <plug>(fzf-complete-word)
 
 """"""""""copy""""""""""
 noremap <leader>y "+y

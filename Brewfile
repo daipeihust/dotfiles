@@ -28,8 +28,10 @@ brew "you-get"
 brew "zplug"
 brew "zsh"
 brew "gitmoji"
+brew "youtube-dl"
 
 cask 'iterm2'
+cask 'termius'
 cask 'google-chrome'
 cask 'go2shell'
 cask 'visual-studio-code'
@@ -45,6 +47,7 @@ cask 'charles'
 cask 'postman'
 cask 'gas-mask'
 cask 'shadowsocksx-ng'
+cask 'wwdc'
 
 cask 'jietu'
 cask 'scroll-reverser'
@@ -63,5 +66,7 @@ cask 'mplayerx'
 cask 'daisydisk'
 
 cask 'sourcetree'
-brew "youtube-dl"
 cask 'telegram'
+
+
+

@@ -1,6 +1,10 @@
 
+# use zsh/zpty
+zmodload zsh/zpty
+
 # use dir name to change dir directly
 setopt AUTO_CD
+
 
 setopt no_nomatch
 
@@ -37,13 +41,13 @@ zplug "plugins/git",		from:oh-my-zsh
 zplug "plugins/vi-mode",		from:oh-my-zsh
 zplug "plugins/osx",		from:oh-my-zsh
 zplug "plugins/sublime",		from:oh-my-zsh
-#zplug "plugins/correction",		from:oh-my-zsh
+zplug "plugins/correction",		from:oh-my-zsh
 zplug "b4b4r07/enhancd",		use:init.sh
 zplug "mollifier/anyframe"
-zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search"
-#zplug "zsh-users/zsh-autosuggestions"
-#zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-completions"
 zplug 'dracula/zsh',		as:theme
 
 # Install plugins if there are plugins that have not been installed
@@ -78,7 +82,8 @@ export THEOS=/opt/theos
 export PATH=$THEOS/bin:$PATH
 
 # my shadowsocks server ip
-export VPS="138.68.227.123"
+export VPS="47.244.243.77"
+export vps=root@$VPS
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -86,6 +91,11 @@ export LANG=en_US.UTF-8
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export PATH=/Users/daipei/development/flutter/bin:$PATH
+
+# cheat configuration
+export CHEAT_COLORS=true
+export CHEAT_COLORSCHEME=dark
+export CHEAT_EDITOR=vim
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -130,7 +140,7 @@ else
 fi
 
 # check ip address quickly
-alias ip="curl https://ip.cn"
+alias ip="curl ip.sb"
 
 # musicbox alias
 alias mb="musicbox"
@@ -145,7 +155,7 @@ alias s="find . | grep "
 alias gid="git icdiff"
 
 # source .zshrc quickly
-alias upzsh="source ~/.zshrc"
+alias szsh="source ~/.zshrc"
 
 # alias stop here
 ##################################################
@@ -165,7 +175,7 @@ function proxy() {
 }
 
 function gitproxy() {
-	git config --global http.proxy 'socks5h://127.0.0.1:1086'
+	git config --global http.proxy 'socks5h://localhost:1086'
 }
 
 function gitunproxy() {

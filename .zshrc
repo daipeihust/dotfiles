@@ -69,6 +69,8 @@ export PATH=$HOME/.zplug/bin:$PATH
 # zplug end
 ##################################################
 
+
+
 # env varible for enhancd plugin
 export ENHANCD_FILTER=fzf:fzy
 
@@ -80,6 +82,10 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Theos configuration
 export THEOS=/opt/theos
 export PATH=$THEOS/bin:$PATH
+
+# go lang root
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin
 
 # my shadowsocks server ip
 export VPS="47.244.243.77"

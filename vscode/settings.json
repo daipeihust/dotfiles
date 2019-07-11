@@ -12,13 +12,11 @@
     "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
     "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
     "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
     "explorer.confirmDelete": false,
     "workbench.editor.showTabs": true,
     "terminal.integrated.shell.osx": "/bin/zsh",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Material Theme",
     "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 18,
 }

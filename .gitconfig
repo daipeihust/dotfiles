@@ -6,5 +6,3 @@
 [core]
 	compression = 0
 	excludesfile = /Users/daipei/.gitignore_global
-[http]
-	proxy = socks5h://localhost:1086

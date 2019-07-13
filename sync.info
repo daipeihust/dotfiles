@@ -2513,3 +2513,20 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master bae1a70] update dotfile
+ 2 files changed, 6 insertions(+)
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+Sat Jul 13 17:35:08 CST 2019
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

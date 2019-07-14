@@ -48,6 +48,7 @@ cask 'postman'
 cask 'gas-mask'
 cask 'shadowsocksx-ng'
 cask 'wwdc'
+cask 'thunder'
 
 cask 'jietu'
 cask 'scroll-reverser'

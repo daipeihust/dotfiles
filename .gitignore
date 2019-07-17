@@ -1,6 +1,7 @@
 
 **/*.err
 **/*.info
+**/*.vscdb
 
 swaps
 # Plugin directory 

@@ -47,6 +47,8 @@ cask 'charles'
 cask 'postman'
 cask 'gas-mask'
 cask 'shadowsocksx-ng'
+cask 'dash'
+cask 'firefox'
 cask 'wwdc'
 cask 'thunder'
 

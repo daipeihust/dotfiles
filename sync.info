@@ -849,6 +849,23 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+<<<<<<< HEAD
+[master de056bb] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 36 insertions(+)
+=======
 Tue Jul 9 10:07:07 CST 2019
 Host key verification failed.
 fatal: Could not read from remote repository.
@@ -2001,6 +2018,7 @@ to set your account's default identity.
 Omit --global to set the identity only in this repository.
 
 fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -2010,95 +2028,19 @@ finish
 
 
 
+<<<<<<< HEAD
+Tue Jul 9 01:06:33 CST 2019
+=======
 Thu Jul 11 19:17:48 CST 2019
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Thu Jul 11 20:17:51 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Thu Jul 11 21:17:53 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Fri Jul 12 00:10:38 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master f299e51] update dotfile
- Committer: System Administrator <root@daipeideMacBook-Pro.local>
+<<<<<<< HEAD
+[master 9c72533] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -2111,10 +2053,168 @@ After doing this, you may fix the identity used for this commit with:
 
     git commit --amend --reset-author
 
+ 3 files changed, 32 insertions(+)
+=======
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+<<<<<<< HEAD
+Thu Jul 11 07:50:43 CST 2019
+ssh: connect to host github.com port 22: Operation timed out
+=======
+Thu Jul 11 20:17:51 CST 2019
+Host key verification failed.
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<<<<<<< HEAD
+[master 394f530] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 33 insertions(+)
+=======
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+<<<<<<< HEAD
+Sat Jul 13 00:11:08 CST 2019
+=======
+Thu Jul 11 21:17:53 CST 2019
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<<<<<<< HEAD
+[master e1ea413] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 30 insertions(+), 2 deletions(-)
+ create mode 100644 .xvimrc
+=======
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+<<<<<<< HEAD
+Sat Jul 13 08:04:02 CST 2019
+=======
+Fri Jul 12 00:10:38 CST 2019
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<<<<<<< HEAD
+[master d99d101] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+=======
+[master f299e51] update dotfile
+ Committer: System Administrator <root@daipeideMacBook-Pro.local>
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+<<<<<<< HEAD
+ 1 file changed, 31 insertions(+)
+ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
+=======
  5 files changed, 1255 insertions(+), 3 deletions(-)
  rewrite vscode/globalStorage/state.vscdb (66%)
  rewrite vscode/globalStorage/state.vscdb.backup (66%)
 Host key verification failed.
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
@@ -2123,14 +2223,24 @@ finish
 
 
 
+<<<<<<< HEAD
+Sat Jul 13 09:10:07 CST 2019
+ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
+=======
 Fri Jul 12 05:57:23 CST 2019
 Host key verification failed.
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+<<<<<<< HEAD
+[master 31aade4] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+=======
 [master 5d6e10c] update dotfile
  Committer: System Administrator <root@daipeideMacBook-Pro.local>
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -2143,7 +2253,11 @@ After doing this, you may fix the identity used for this commit with:
 
     git commit --amend --reset-author
 
+<<<<<<< HEAD
+ 1 file changed, 30 insertions(+)
+=======
  1 file changed, 32 insertions(+)
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -2153,14 +2267,24 @@ finish
 
 
 
+<<<<<<< HEAD
+Sat Jul 13 10:17:10 CST 2019
+ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
+=======
 Fri Jul 12 07:19:04 CST 2019
 Host key verification failed.
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+<<<<<<< HEAD
+[master e3335b3] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+=======
 [master fd3d127] update dotfile
  Committer: System Administrator <root@daipeideMacBook-Pro.local>
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -2174,7 +2298,11 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  1 file changed, 30 insertions(+)
+<<<<<<< HEAD
+ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
+=======
 Host key verification failed.
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
@@ -2183,12 +2311,33 @@ finish
 
 
 
+<<<<<<< HEAD
+Sat Jul 13 12:03:23 CST 2019
+=======
 Fri Jul 12 10:00:39 CST 2019
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+<<<<<<< HEAD
+[master f748bf8] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 30 insertions(+)
+=======
 
 *** Please tell me who you are.
 
@@ -2498,6 +2647,7 @@ to set your account's default identity.
 Omit --global to set the identity only in this repository.
 
 fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
+>>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 

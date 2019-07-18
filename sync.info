@@ -3213,3 +3213,20 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master b984b17] update dotfile
+ 1 file changed, 17 insertions(+)
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+Thu Jul 18 10:06:52 CST 2019
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

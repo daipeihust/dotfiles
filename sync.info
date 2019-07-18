@@ -3230,3 +3230,20 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master 28e69ef] update dotfile
+ 1 file changed, 17 insertions(+)
+ssh_exchange_identification: Connection closed by remote host
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+Thu Jul 18 11:07:20 CST 2019
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

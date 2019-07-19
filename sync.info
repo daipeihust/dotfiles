@@ -849,23 +849,6 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-<<<<<<< HEAD
-[master de056bb] update dotfile
- Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 2 files changed, 36 insertions(+)
-=======
 Tue Jul 9 10:07:07 CST 2019
 Host key verification failed.
 fatal: Could not read from remote repository.
@@ -2018,7 +2001,6 @@ to set your account's default identity.
 Omit --global to set the identity only in this repository.
 
 fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -2028,33 +2010,12 @@ finish
 
 
 
-<<<<<<< HEAD
-Tue Jul 9 01:06:33 CST 2019
-=======
 Thu Jul 11 19:17:48 CST 2019
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-<<<<<<< HEAD
-[master 9c72533] update dotfile
- Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 3 files changed, 32 insertions(+)
-=======
 
 *** Please tell me who you are.
 
@@ -2067,7 +2028,6 @@ to set your account's default identity.
 Omit --global to set the identity only in this repository.
 
 fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -2077,34 +2037,12 @@ finish
 
 
 
-<<<<<<< HEAD
-Thu Jul 11 07:50:43 CST 2019
-ssh: connect to host github.com port 22: Operation timed out
-=======
 Thu Jul 11 20:17:51 CST 2019
 Host key verification failed.
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-<<<<<<< HEAD
-[master 394f530] update dotfile
- Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 2 files changed, 33 insertions(+)
-=======
 
 *** Please tell me who you are.
 
@@ -2117,7 +2055,6 @@ to set your account's default identity.
 Omit --global to set the identity only in this repository.
 
 fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -2127,34 +2064,12 @@ finish
 
 
 
-<<<<<<< HEAD
-Sat Jul 13 00:11:08 CST 2019
-=======
 Thu Jul 11 21:17:53 CST 2019
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-<<<<<<< HEAD
-[master e1ea413] update dotfile
- Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 3 files changed, 30 insertions(+), 2 deletions(-)
- create mode 100644 .xvimrc
-=======
 
 *** Please tell me who you are.
 
@@ -2167,7 +2082,6 @@ to set your account's default identity.
 Omit --global to set the identity only in this repository.
 
 fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -2177,23 +2091,14 @@ finish
 
 
 
-<<<<<<< HEAD
-Sat Jul 13 08:04:02 CST 2019
-=======
 Fri Jul 12 00:10:38 CST 2019
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-<<<<<<< HEAD
-[master d99d101] update dotfile
- Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
-=======
 [master f299e51] update dotfile
  Committer: System Administrator <root@daipeideMacBook-Pro.local>
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -2206,15 +2111,10 @@ After doing this, you may fix the identity used for this commit with:
 
     git commit --amend --reset-author
 
-<<<<<<< HEAD
- 1 file changed, 31 insertions(+)
-ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
-=======
  5 files changed, 1255 insertions(+), 3 deletions(-)
  rewrite vscode/globalStorage/state.vscdb (66%)
  rewrite vscode/globalStorage/state.vscdb.backup (66%)
 Host key verification failed.
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
@@ -2223,24 +2123,14 @@ finish
 
 
 
-<<<<<<< HEAD
-Sat Jul 13 09:10:07 CST 2019
-ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
-=======
 Fri Jul 12 05:57:23 CST 2019
 Host key verification failed.
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-<<<<<<< HEAD
-[master 31aade4] update dotfile
- Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
-=======
 [master 5d6e10c] update dotfile
  Committer: System Administrator <root@daipeideMacBook-Pro.local>
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -2253,11 +2143,7 @@ After doing this, you may fix the identity used for this commit with:
 
     git commit --amend --reset-author
 
-<<<<<<< HEAD
- 1 file changed, 30 insertions(+)
-=======
  1 file changed, 32 insertions(+)
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -2267,24 +2153,14 @@ finish
 
 
 
-<<<<<<< HEAD
-Sat Jul 13 10:17:10 CST 2019
-ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
-=======
 Fri Jul 12 07:19:04 CST 2019
 Host key verification failed.
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-<<<<<<< HEAD
-[master e3335b3] update dotfile
- Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
-=======
 [master fd3d127] update dotfile
  Committer: System Administrator <root@daipeideMacBook-Pro.local>
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -2298,11 +2174,7 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  1 file changed, 30 insertions(+)
-<<<<<<< HEAD
-ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
-=======
 Host key verification failed.
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
@@ -2311,33 +2183,12 @@ finish
 
 
 
-<<<<<<< HEAD
-Sat Jul 13 12:03:23 CST 2019
-=======
 Fri Jul 12 10:00:39 CST 2019
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-<<<<<<< HEAD
-[master f748bf8] update dotfile
- Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 1 file changed, 30 insertions(+)
-=======
 
 *** Please tell me who you are.
 
@@ -2647,7 +2498,6 @@ to set your account's default identity.
 Omit --global to set the identity only in this repository.
 
 fatal: unable to auto-detect email address (got 'root@daipeideMBP.(none)')
->>>>>>> be40d88938d916cef3eb9984f5faa48757b0535b
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -2657,479 +2507,57 @@ finish
 
 
 
-Sat Jul 13 16:33:09 CST 2019
-Host key verification failed.
+Mon Jul 15 00:14:36 CST 2019
+ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-[master bae1a70] update dotfile
- 2 files changed, 6 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
+[master 682238f] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
 
-Please make sure you have the correct access rights
-and the repository exists.
-finish
+    git config --global --edit
 
+After doing this, you may fix the identity used for this commit with:
 
+    git commit --amend --reset-author
 
-Sat Jul 13 17:35:08 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master bba6f04] update dotfile
- 2 files changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Sat Jul 13 18:35:11 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 6cfa005] update dotfile
- 2 files changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Sat Jul 13 19:35:13 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 84cd6b9] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Sat Jul 13 20:45:27 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 054a045] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Sat Jul 13 21:45:29 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master e4979bd] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Sun Jul 14 19:22:22 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master acd8c21] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Sun Jul 14 20:22:24 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master e251099] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Sun Jul 14 21:22:26 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master b6c2602] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Sun Jul 14 22:22:29 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master db8cc77] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Mon Jul 15 11:41:30 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 373993f] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Mon Jul 15 12:41:32 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 5e73832] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Mon Jul 15 14:11:48 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 479bccf] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 10:09:13 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 0c939c9] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 11:31:11 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 8131b60] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 12:31:13 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 40a9756] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 13:52:09 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 582497c] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 14:52:11 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 32fb8d7] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 15:52:15 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master c75df26] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 16:52:17 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master acd753e] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 17:52:18 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master be17fe3] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 18:52:51 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 6c4e4b0] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 19:52:52 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 31512d3] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Tue Jul 16 20:54:11 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 864400a] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Wed Jul 17 10:04:26 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master b95f83a] update dotfile
- 2 files changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Wed Jul 17 11:04:28 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master ca110ed] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Wed Jul 17 12:04:34 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 35b7061] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Wed Jul 17 13:04:37 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-Wed Jul 17 14:35:02 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 1a51a33] update dotfile
  1 file changed, 6 insertions(+)
+ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+Mon Jul 15 01:28:33 CST 2019
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[master e56f962] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 30 insertions(+)
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -3139,48 +2567,27 @@ finish
 
 
 
-Wed Jul 17 15:35:07 CST 2019
+Mon Jul 15 07:54:53 CST 2019
 Host key verification failed.
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-[master 81648c0] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
+[master 94f3053] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
 
-Please make sure you have the correct access rights
-and the repository exists.
-finish
+    git config --global --edit
 
+After doing this, you may fix the identity used for this commit with:
 
+    git commit --amend --reset-author
 
-Wed Jul 17 16:35:11 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 6b1bfc6] update dotfile
- 3 files changed, 26 insertions(+), 5 deletions(-)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Wed Jul 17 17:35:12 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master cf9b180] update dotfile
- 1 file changed, 17 insertions(+)
+ 1 file changed, 30 insertions(+)
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -3190,65 +2597,27 @@ finish
 
 
 
-Wed Jul 17 18:35:16 CST 2019
+Mon Jul 15 08:54:56 CST 2019
 Host key verification failed.
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-[master 06d1b89] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
+[master bd6b769] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
 
-Please make sure you have the correct access rights
-and the repository exists.
-finish
+    git config --global --edit
 
+After doing this, you may fix the identity used for this commit with:
 
+    git commit --amend --reset-author
 
-Wed Jul 17 19:42:57 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master b984b17] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Thu Jul 18 10:06:52 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 28e69ef] update dotfile
- 1 file changed, 17 insertions(+)
-ssh_exchange_identification: Connection closed by remote host
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Thu Jul 18 11:07:20 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 37c32b4] update dotfile
- 1 file changed, 17 insertions(+)
+ 1 file changed, 30 insertions(+)
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -3258,48 +2627,27 @@ finish
 
 
 
-Thu Jul 18 13:37:15 CST 2019
+Mon Jul 15 23:11:33 CST 2019
 Host key verification failed.
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-[master 939a33c] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
+[master 5e18c34] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
 
-Please make sure you have the correct access rights
-and the repository exists.
-finish
+    git config --global --edit
 
+After doing this, you may fix the identity used for this commit with:
 
+    git commit --amend --reset-author
 
-Thu Jul 18 14:37:17 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 5011b2e] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Thu Jul 18 15:37:19 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 4ea1eb8] update dotfile
- 1 file changed, 17 insertions(+)
+ 1 file changed, 30 insertions(+)
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -3309,48 +2657,27 @@ finish
 
 
 
-Thu Jul 18 16:37:21 CST 2019
-Host key verification failed.
+Tue Jul 16 00:11:42 CST 2019
+ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-[master 5f3a396] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
+[master 3598ed7] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
 
-Please make sure you have the correct access rights
-and the repository exists.
-finish
+    git config --global --edit
 
+After doing this, you may fix the identity used for this commit with:
 
+    git commit --amend --reset-author
 
-Thu Jul 18 17:37:22 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master 00fafef] update dotfile
- 1 file changed, 17 insertions(+)
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-finish
-
-
-
-Thu Jul 18 19:51:32 CST 2019
-Host key verification failed.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-[master a62f65a] update dotfile
- 1 file changed, 17 insertions(+)
+ 1 file changed, 30 insertions(+)
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -3360,15 +2687,27 @@ finish
 
 
 
-Fri Jul 19 09:42:19 CST 2019
+Tue Jul 16 22:41:03 CST 2019
 Host key verification failed.
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-[master 065c3b1] update dotfile
- 2 files changed, 17 insertions(+)
- rewrite vscode/globalStorage/state.vscdb.backup (73%)
+[master a89c13f] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 30 insertions(+)
 Host key verification failed.
 fatal: Could not read from remote repository.
 
@@ -3378,3 +2717,99 @@ finish
 
 
 
+Thu Jul 18 00:29:13 CST 2019
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[master c1b46f4] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 30 insertions(+)
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+Thu Jul 18 01:29:16 CST 2019
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[master cda1092] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 30 insertions(+)
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+Thu Jul 18 07:34:32 CST 2019
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[master d92f17c] update dotfile
+ Committer: System Administrator <root@DaiPeideMacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 30 insertions(+)
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+Thu Jul 18 08:34:36 CST 2019
+ssh_dispatch_run_fatal: Connection to 13.250.177.223 port 22: Operation timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

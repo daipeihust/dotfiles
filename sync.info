@@ -3366,3 +3366,15 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master 065c3b1] update dotfile
+ 2 files changed, 17 insertions(+)
+ rewrite vscode/globalStorage/state.vscdb.backup (73%)
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+

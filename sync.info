@@ -3007,3 +3007,20 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master 7ac02ba] update dotfile
+ 1 file changed, 17 insertions(+)
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+finish
+
+
+
+Sat Jul 20 12:55:49 CST 2019
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

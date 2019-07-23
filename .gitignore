@@ -1,6 +1,8 @@
 
 **/*.err
 **/*.info
+**/*.vscdb
+vscode/globalStorage/
 
 swaps
 # Plugin directory 

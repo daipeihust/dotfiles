@@ -178,19 +178,14 @@ eval $(thefuck --alias)
 function proxy() {
 	export all_proxy=http://localhost:1087
 	curl ip.sb
-}
-
-function gitproxy() {
 	git config --global http.proxy 'socks5h://localhost:1086'
-}
-
-function gitunproxy() {
-	git config --global --unset http.proxy
+	
 }
 
 function unproxy() {
 	unset all_proxy
 	curl ip.sb
+	git config --global --unset http.proxy
 }
 
 # keybinding for anyframe

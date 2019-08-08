@@ -29,6 +29,7 @@ brew "zplug"
 brew "zsh"
 brew "gitmoji"
 brew "youtube-dl"
+brew 'neovim'
 
 cask 'iterm2'
 cask 'termius'

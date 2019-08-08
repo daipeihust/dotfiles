@@ -16,7 +16,8 @@
     "workbench.editor.showTabs": true,
     "terminal.integrated.shell.osx": "/bin/zsh",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme",
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontSize": 18,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Material Theme",
 }

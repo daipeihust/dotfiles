@@ -31,6 +31,7 @@ brew "gitmoji"
 brew "youtube-dl"
 brew 'neovim'
 
+cask 'clashx'
 cask 'iterm2'
 cask 'termius'
 cask 'google-chrome'

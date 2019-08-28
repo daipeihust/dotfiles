@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "caskroom/fonts"
 
 brew "cocoapods"
 brew "archey"
@@ -31,6 +32,7 @@ brew "gitmoji"
 brew "youtube-dl"
 brew 'neovim'
 
+cask 'font-fira-code'
 cask 'clashx'
 cask 'iterm2'
 cask 'termius'

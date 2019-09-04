@@ -28,8 +28,9 @@ link() {
 
 cd $HOME/dotfiles
 
-link .vim $HOME/.vim
-link .vimrc $HOME/.vimrc
+#link .vim $HOME/.vim
+#link .vimrc $HOME/.vimrc
+link .SpaceVim.d $HOME/.SpaceVim.d
 link vscode $HOME/Library/Application\ Support/Code/User
 link sshconfig $HOME/.ssh/config
 link .zshrc $HOME/.zshrc

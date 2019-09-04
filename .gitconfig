@@ -12,5 +12,3 @@
 [mergetool "sourcetree"]
 	cmd = /Users/daipei/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[http]
-	proxy = socks5h://localhost:1086

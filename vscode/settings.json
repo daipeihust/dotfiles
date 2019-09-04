@@ -1,5 +1,7 @@
 {
     "editor.smoothScrolling": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "vim.handleKeys": {
         "<C-d>": true
     },

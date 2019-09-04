@@ -15,3 +15,5 @@ curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_m
 
 pip3 install --user pynvim # install pynvim for deoplete
 
+curl -sLf https://spacevim.org/install.sh | bash # install spacevim
+

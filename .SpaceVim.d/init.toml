@@ -8,23 +8,16 @@
 
 # All SpaceVim option below [option] section
 [options]
-# set spacevim theme. by default colorscheme layer is not loaded,
-# if you want to use more colorscheme, please load the colorscheme
-# layer
   colorscheme = "gruvbox"
   colorscheme_bg = "dark"
-# Disable guicolors in basic mode, many terminal do not support 24bit
-# true colors
   enable_guicolors = true
-# Disable statusline separator, if you want to use other value, please
-# install nerd fonts
+  guifont = "Fira Code"
   statusline_separator = "arrow"
   statusline_inactive_separator = "arrow"
   buffer_index_type = 4
   enable_tabline_filetype_icon = true
   enable_statusline_mode = false
 
-# Enable autocomplete layer
 [[layers]]
   name = 'autocomplete'
   auto-completion-return-key-behavior = "complete"
@@ -46,3 +39,42 @@
 
 [[layers]]
   name = "lang#ruby"
+
+[[layers]]
+  name = "chinese"
+
+[[layers]]
+  name = "colorscheme"
+
+[[layers]]
+  name = "lang#html"
+
+[[layers]]
+  name = "git"
+
+[[layers]]
+  name = "lang#json"
+
+[[layers]]
+  name = "lang#markdown"
+
+[[layers]]
+  name = "lang#swift"
+
+[[layers]]
+  name = "lang#typescript"
+
+[[layers]]
+  name = "lang#vim"
+
+[[layers]]
+  name = "lang#xml"
+
+[[layers]]
+  name = "lang#c"
+
+[[layers]]
+  name = "sudo"
+
+[[layers]]
+  name = "tools#screensaver"

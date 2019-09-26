@@ -76,6 +76,7 @@ cask 'daisydisk'
 
 cask 'sourcetree'
 cask 'telegram'
+cask 'brooklyn'
 
 
 

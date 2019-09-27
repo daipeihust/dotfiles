@@ -8,6 +8,7 @@ brew "ruby", link: true
 brew "python"
 brew "zsh"
 brew "vim"
+brew "neovim"
 brew "zplug"
 brew "git"
 brew "tig"
@@ -42,6 +43,7 @@ cask 'google-chrome'
 cask 'go2shell'
 cask 'visual-studio-code'
 cask 'sublime-text'
+cask 'vimr'
 cask 'karabiner-elements'
 cask 'typora'
 cask 'alfred'

@@ -3,6 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "caskroom/fonts"
+tap "denisidoro/tools"
 
 brew "ruby", link: true
 brew "python"
@@ -28,7 +29,7 @@ brew "you-get"
 brew "youtube-dl"
 brew "flow"
 brew "archey"
-brew "cheat", link: false
+brew "navi"
 brew "mpg123"
 brew "ranger"
 brew "pandoc"

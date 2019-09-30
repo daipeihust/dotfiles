@@ -97,6 +97,7 @@ export LANG=en_US.UTF-8
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export PATH=/Users/daipei/development/flutter/bin:$PATH
+export PATH=/Users/daipei/Workshop/flutter/bin:$PATH
 
 # cheat configuration
 export CHEAT_COLORS=true

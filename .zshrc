@@ -162,7 +162,7 @@ alias s="find . | grep "
 alias gid="git icdiff"
 
 # source .zshrc quickly
-alias szsh="source ~/.zshrc"
+alias upsh="source ~/.zshrc"
 
 # alias stop here
 ##################################################
@@ -211,3 +211,4 @@ bindkey '^x^e' anyframe-widget-insert-git-branch
 # starship prompt configuration
 eval "$(starship init zsh)"
 
+source "$(navi widget zsh)"

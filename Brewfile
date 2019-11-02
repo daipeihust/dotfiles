@@ -2,7 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "caskroom/fonts"
+tap "homebrew/cask-fonts"
 tap "denisidoro/tools"
 
 brew "ruby", link: true

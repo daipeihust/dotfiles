@@ -12,3 +12,7 @@
 [mergetool "sourcetree"]
 	cmd = /Users/daipei/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[http "https://git.code.oa.com"]
+      proxy = http://127.0.0.1:12639
+[http "http://git.code.oa.com"]
+      proxy = http://127.0.0.1:12639

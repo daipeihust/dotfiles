@@ -35,6 +35,7 @@ brew "ranger"
 brew "pandoc"
 
 cask 'font-fira-code'
+cask 'sogouinput'
 cask 'clashx'
 cask 'iterm2'
 cask 'edex-ui'

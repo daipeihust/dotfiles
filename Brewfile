@@ -12,6 +12,7 @@ brew "vim"
 brew "neovim"
 brew "zplug"
 brew "git"
+brew "git-lfs"
 brew "tig"
 brew "supervisor"
 brew "cocoapods"
@@ -35,6 +36,7 @@ brew "ranger"
 brew "pandoc"
 
 cask 'font-fira-code'
+cask 'sogouinput'
 cask 'clashx'
 cask 'iterm2'
 cask 'edex-ui'

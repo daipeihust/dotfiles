@@ -31,4 +31,5 @@
     "minapp-vscode.disableAutoConfig": true,
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Material Theme",
+    "terminal.integrated.rendererType": "dom",
 }

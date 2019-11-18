@@ -17,9 +17,7 @@
 [http "http://git.code.oa.com"]
       proxy = http://127.0.0.1:12639
 [filter "lfs"]
+	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
-	required = true
-[commit]
-	template = /Users/daipei/.stCommitMsg

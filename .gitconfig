@@ -1,8 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-	name = stevedai
-	email = stevedai@tencent.com
+	name = daipei
+	email = daipeihust@gmail.com
 [core]
 	compression = 0
 	excludesfile = /Users/daipei/.gitignore_global
@@ -10,14 +10,5 @@
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[http "https://git.code.oa.com"]
-      proxy = http://127.0.0.1:12639
-[http "http://git.code.oa.com"]
-      proxy = http://127.0.0.1:12639
-[filter "lfs"]
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process

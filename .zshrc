@@ -210,5 +210,3 @@ bindkey '^x^e' anyframe-widget-insert-git-branch
 
 # starship prompt configuration
 eval "$(starship init zsh)"
-
-source "$(navi widget zsh)"

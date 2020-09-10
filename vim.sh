@@ -1,3 +1,7 @@
+
+# install spacevim
+curl -sLf https://spacevim.org/install.sh | bash
+
 # install vim plugin
 rm -rf .vim/bundle
 mkdir -p .vim/bundle

@@ -34,6 +34,7 @@ brew "navi"
 brew "mpg123"
 brew "ranger"
 brew "pandoc"
+brew "bit-git"
 
 cask 'font-fira-code'
 cask 'sogouinput'
